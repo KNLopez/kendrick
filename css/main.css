@@ -126,3 +126,18 @@ button.searchprop{
   float : right;
   text-align : left;
 }
+.search-banner__content {
+    background-color: pink;
+    height: 200px;
+    width: 100%;
+}
+.search-bar {
+    left: 263px;
+    top: 336px;
+    width: 629px;
+    height: 58px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: inline-block;
+}
