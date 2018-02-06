@@ -37,3 +37,23 @@ header{
 	text-decoration : none;
 	display: inline; 
 }
+.search-banner {
+	height: 600px;
+	width: 100%;
+}
+.company-description {
+	height: 1200px;
+	width: 100%;
+}
+.call-to-action {
+	height: 250px;
+	width: 100%;
+}
+.featured {
+	height: 800px;
+	width: 100%;
+}
+.testimonials {
+	height: 500px;
+	width: 100%;
+}
