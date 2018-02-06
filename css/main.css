@@ -6,3 +6,34 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 */
+
+header{
+	border: 1px red solid;
+	height: 70px;
+	width: 100%;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 8px;
+	margin-left: 38px;
+}
+.label{
+	margin-left: 169px;
+    margin-top: -19px;
+}
+.main-menu{
+	float : right;
+	margin-right: 400px;
+	margin-top: -45px;
+}
+.main-menu li{
+	text-decoration : none;
+	display: inline; 
+}
+.saved-searches{
+	float : right;
+}
+.saved-searches li{
+	text-decoration : none;
+	display: inline; 
+}
