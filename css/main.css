@@ -45,25 +45,67 @@ header{
 	display: inline; 
 }
 
-button{
+button.about{
 
 	background: #4FE3C1;
-	color: #B8F5EA;
+	color: #F9FBFA;;
 	padding-left: 28px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;																																															
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	padding-right: 28px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: right;
 
 }
-.Subs{
+button.findpartgent{
+
+	background: #4FE3C1;
+	color: #F9FBFA;;
+	padding-left: 28px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;																																															
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 28px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+button.Subs{
 
 	background: #000;
 	color: #E8E8E8;
+	padding-left: 28px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;																																															
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 28px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-inline-start: 573px;
 }
+
+button.searchprop{
+
+	background: #4FE3C1;
+	color: #F9FBFA;;
+	padding-left: 28px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;																																															
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 28px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-inline-start: 573px;
+
+
+}
+
 
 .search-banner {
 	height: 600px;
@@ -91,4 +133,19 @@ button{
 .big-heading{
   float : right;
   text-align : left;
+}
+.search-banner__content {
+    background-color: pink;
+    height: 200px;
+    width: 100%;
+}
+.search-bar {
+    left: 263px;
+    top: 336px;
+    width: 629px;
+    height: 58px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: inline-block;
 }
