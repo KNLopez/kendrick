@@ -36,6 +36,27 @@ header{
 	text-decoration : none;
 	display: inline; 
 }
+
+button{
+
+	background: #4FE3C1;
+	color: #B8F5EA;
+	padding-left: 28px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;																																															
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 28px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+.Subs{
+
+	background: #000;
+	color: #E8E8E8;
+}
+
 .search-banner {
 	height: 600px;
 	width: 100%;
