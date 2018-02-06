@@ -44,6 +44,15 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Titillium+Web:400,600" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112684174-1');
+  </script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -53,17 +62,27 @@
   <header>
     <nav>
       <div class="left-navigation">
-        <div class="logo"></div>
+        <div class="logo"><img src="images/kendrick-logo.png"</div>
         <div class="location-selector"></div>
       </div>
       <div class="right-navitaion">
-        <div class="main-menu"></div>
+        <div class="main-menu">
+          <ul>
+            <li><a>How it Works</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Contact</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
         <div class="saved-searches">
         <div class="signin"></div>
       </div>
     </nav>
   </header>
   <main>
+    <section class="search-banner full-height">
+      <div class="search-banner--search-text"></div>
+    </section>
 
   </main>
   <script src="js/scripts.js"></script>
