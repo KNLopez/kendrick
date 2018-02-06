@@ -129,10 +129,8 @@ button.searchprop{
 }
 .search-banner__content h1{
   text-align : center;
-}
-.big-heading{
-  float : right;
-  text-align : left;
+  font-size: 45px;
+  color: white;
 }
 .search-banner__content {
     background-color: pink;
@@ -149,3 +147,8 @@ button.searchprop{
     margin: 0 auto;
     display: inline-block;
 }
+.text-module {
+	float : right;
+}
+
+
