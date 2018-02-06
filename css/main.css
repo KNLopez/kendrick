@@ -70,11 +70,17 @@ button{
 	width: 100%;
 }
 .featured {
-	height: 800px;
-	width: 100%;
+	height : 800px;
+	width : 100%;
 }
 .testimonials {
-	height: 500px;
-	width: 100%;
+  height : 500px;
+  width : 100%;
 }
-
+.search-banner__content h1{
+  text-align : center;
+}
+.big-heading{
+  float : right;
+  text-align : left;
+}
