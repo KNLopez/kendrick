@@ -103,19 +103,20 @@ button.searchprop{
   padding-bottom : 15px;
   margin-inline-start : 573px;
 }
-<<<<<<< HEAD
+
 
 
 section.search-banner {
   height: 600px;
   width: 100%;
   background-image: url("2nd.jpeg");
-  
-=======
+
+ }
+
 .search-banner {
   height : 600px;
   width : 100%;
->>>>>>> 319281cf23c8698d2a03a7b511e556277b6b15f8
+
 }
 .company-description {
   height : 1200px;
@@ -139,16 +140,13 @@ section.search-banner {
   color : white;
 }
 .search-banner__content {
-<<<<<<< HEAD
 
-=======
   background-color : pink;
->>>>>>> 319281cf23c8698d2a03a7b511e556277b6b15f8
   height : 200px;
   width : 100%;
 }
 .search-bar {
-<<<<<<< HEAD
+
   width : 629px;
   padding : 15px;
   margin-left : 588px;
@@ -166,7 +164,7 @@ section.search-banner {
   float: right;
   margin-top: -5px;
 
-=======
+
   left : 263px;
   top : 336px;
   width : 629px;
@@ -183,7 +181,7 @@ section.search-banner {
 .firstPic img{
     width: 350px;
     height: 300px;
->>>>>>> 319281cf23c8698d2a03a7b511e556277b6b15f8
+
 }
 .big-heading {
   font-size : 60px;
