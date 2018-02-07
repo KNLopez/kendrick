@@ -109,7 +109,7 @@ button.searchprop{
 section.search-banner {
   height: 600px;
   width: 100%;
-  background-image: url("2nd.jpeg");
+  background-color: #c2b5b5;
 }
 .search-banner {
   height : 600px;
@@ -138,7 +138,7 @@ section.search-banner {
   color : white;
 }
 .search-banner__content {
-  background-color : pink;
+  
   height : 200px;
   width : 100%;
 }
@@ -154,30 +154,18 @@ section.search-banner {
   width: 345px;
   height: 290px;
   margin-top: 12px;
+  float: left;
 }
+
 .thirdPic img {
   width: 530px;
   height: 350px;
   float: right;
   margin-top: -5px;
 
-
-  left : 263px;
-  top : 336px;
-  width : 629px;
-  height : 58px;
-  padding-left : 15px;
-  padding-right : 15px;
-  margin : 0 auto;
-  display : inline-block;
 }
 .text-module {
   float : right;
-}
-
-.firstPic img{
-    width: 350px;
-    height: 300px;
 }
 .big-heading {
   font-size : 60px;
@@ -194,4 +182,15 @@ section.search-banner {
 .align-right h1{
   font-size : 35px;
 }
-
+#couchPic{
+  width: 360px;
+  height: 300px;
+}
+#couchPic2{
+  width: 360px;
+  height: 300px;
+}
+#couchPic3{
+  width: 360px;
+  height: 300px;
+}
