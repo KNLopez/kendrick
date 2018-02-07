@@ -131,15 +131,26 @@ section.search-banner {
   height : 500px;
   width : 100%;
 }
-.search-banner__content h1{
-  text-align : center;
-  font-size : 45px;
-  color : white;
+
+.search-banner__content{
+height : 950px;
+ width : 100%;
 }
-.search-banner__content {
+
+.search-banner__content h1{
+      text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-top: -459px;
+}
+#image2{
+	width: 100%;
+	height: 850px;
+{
   
   height : 200px;
   width : 100%;
+
 }
 .search-bar {
 
@@ -166,11 +177,11 @@ section.search-banner {
 
 .text-module {
   float : right;
-
+}
 .firstPic img{
     width: 350px;
     height: 300px;
-
+}
 .big-heading {
   font-size : 60px;
 }
