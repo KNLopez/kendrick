@@ -145,10 +145,6 @@ button.searchprop{
   margin : 0 auto;
   display : inline-block;
 }
-.text-module {
-  float : right;
-}
-
 .firstPic img{
     width: 350px;
     height: 300px;
@@ -161,6 +157,9 @@ button.searchprop{
   margin-left : 50%;
   border-left: 10px
 }
+.align-left p{
+text-align: justify;
+}
 .align-right {
   float : right; 
   margin-right : 50%;
@@ -168,4 +167,21 @@ button.searchprop{
 .align-right h1{
   font-size : 35px;
 }
-
+.align-right p{
+  text-align: justify;
+}
+.align-center{
+  text-align : center;
+}
+.align-center h1{
+  font-size : 40px;
+}
+.text-module p{
+  font-size : 20px;
+}
+.featured {
+  text-align : center; 
+}
+.white-bg {
+  font-size : 25px;
+}
