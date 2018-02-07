@@ -52,7 +52,7 @@ margin-left: 20px;
 .signin .btn .btn-white .signin{
 	border-color: #82caba;
 }
-button.about{
+button.btn.btn-teal.about.pull.center{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 68px;
@@ -65,7 +65,7 @@ button.about{
   padding-bottom : 15px;
  
 }
-button.findpartgent{
+button.btn.btn-green.findpartgent{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -77,7 +77,7 @@ button.findpartgent{
   padding-top : 15px;
   padding-bottom : 15px;
 }
-button.Subs{
+button.btn.btn-black.Subs.pull.center{
   background : #000;
   color : #E8E8E8;
   padding-left : 28px;
@@ -90,7 +90,7 @@ button.Subs{
   padding-bottom : 15px;
   margin-inline-start : 448px;
 }
-button.searchprop{
+button.btn.btn-green.searchprop{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -101,7 +101,8 @@ button.searchprop{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 747px;
+  margin-inline-start : 792px;
+
 }
 
 
