@@ -152,8 +152,18 @@ button.searchprop{
     height: 300px;
 }
 .big-heading {
-  border-right : 50%;
   font-size : 60px;
+}
+.align-left {
   float : left; 
   margin-left : 50%;
+  border-left: 10px
 }
+.align-right {
+  float : right; 
+  margin-right : 50%;
+}
+.align-right h1{
+  font-size : 35px;
+}
+
