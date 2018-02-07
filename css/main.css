@@ -52,7 +52,7 @@ margin-left: 20px;
 .signin .btn .btn-white .signin{
 	border-color: #82caba;
 }
-button.about{
+button.btn.btn-teal.about.pull.center{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 68px;
@@ -65,7 +65,7 @@ button.about{
   padding-bottom : 15px;
  
 }
-button.findpartgent{
+button.btn.btn-green.findpartgent{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -77,7 +77,7 @@ button.findpartgent{
   padding-top : 15px;
   padding-bottom : 15px;
 }
-button.Subs{
+button.btn.btn-black.Subs.pull.center{
   background : #000;
   color : #E8E8E8;
   padding-left : 28px;
@@ -90,7 +90,7 @@ button.Subs{
   padding-bottom : 15px;
   margin-inline-start : 448px;
 }
-button.searchprop{
+button.btn.btn-green.searchprop{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -101,10 +101,9 @@ button.searchprop{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 747px;
+  margin-inline-start : 792px;
+
 }
-
-
 
 section.search-banner {
   height: 600px;
@@ -164,9 +163,14 @@ section.search-banner {
   margin-top: -5px;
 
 }
+
 .text-module {
   float : right;
-}
+
+.firstPic img{
+    width: 350px;
+    height: 300px;
+
 .big-heading {
   font-size : 60px;
 }
@@ -175,6 +179,9 @@ section.search-banner {
   margin-left : 50%;
   border-left: 10px
 }
+.align-left p{
+text-align: justify;
+}
 .align-right {
   float : right; 
   margin-right : 50%;
@@ -182,6 +189,7 @@ section.search-banner {
 .align-right h1{
   font-size : 35px;
 }
+
 #couchPic{
   width: 360px;
   height: 300px;
@@ -193,4 +201,29 @@ section.search-banner {
 #couchPic3{
   width: 360px;
   height: 300px;
+}
+
+
+.footer{
+	background-color: gray;
+	height: 50%;
+	width : 100%;
+}
+.align-right p{
+  text-align: justify;
+}
+.align-center{
+  text-align : center;
+}
+.align-center h1{
+  font-size : 40px;
+}
+.text-module p{
+  font-size : 20px;
+}
+.featured {
+  text-align : center; 
+}
+.white-bg {
+  font-size : 25px;
 }
