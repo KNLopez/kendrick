@@ -6,6 +6,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 */
+
 :root {
   --main-color:#50E3C2; 
   --light-grey: #ccc;
@@ -211,7 +212,7 @@ img{
   border: 0;
 }
 .btn-green{
-  color:white;
+  color:#fff;
   background: var(--main-color);
 }
 .btn.btn-green.btn-outline{
@@ -237,3 +238,4 @@ img{
   color: var(--light-grey);
   font-weight: 100;
 }
+
