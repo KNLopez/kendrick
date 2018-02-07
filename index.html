@@ -12,7 +12,14 @@
   <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
   <!-- Recommended favicon format -->
   <link rel="icon" type="image/png" href="https://example.com/favicon.png">
-  <link rel="stylesheet" href="css/main.css?v=1.0">
+  <link rel="preload" href="css/normalize.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="css/main.css?v=1.0" as="style" onload="this.rel='stylesheet'">
+  <script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+  </script>
   <!-- Apple Touch Icon (at least 200x200px) -->
   <link rel="apple-touch-icon" href="/custom-icon.png">
 
@@ -43,7 +50,7 @@
   <meta name="twitter:image" content="images/home.jpg">
 
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Titillium+Web:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:400,600" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
   <script>
@@ -62,20 +69,32 @@
   <header>
     <nav>
       <div class="left-navigation">
-        <div class="logo"><img src="images/kendrick-logo.png"</div>
-        <div class="location-selector"></div>
+        <div class="logo"><img src="images/kendrick-logo.png"></div>
+        <div class="location-selector">
+          <div class="label"> Vacaville, California</div>
+        </div>
       </div>
-      <div class="right-navitaion">
+     
+      <div class="right-navigation">
         <div class="main-menu">
           <ul>
             <li><a href="#">How it Works</a></li>
             <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="https://marvelapp.com/138784h6/screen/38135258">About</a></li>
+
+            <li class="contact"><a href="#">Contact</a></li>
+            <li class="about"><a href="#">About</a></li>
+
           </ul>
         </div>
-        <div class="saved-searches">
-        <div class="signin"></div>
+      
+      <div class="saved-searches">
+          <ul>
+            <li class="saved-homes"><a href="#"> Saved Homes </a></li>
+            <li class="saved-searches"><a href="#"> Saved Searches</a></li>
+          </ul>
+      </div>
+      <div class="signin">
+          <a href="#" class="btn btn-green btn-outline">Sign in </a>
       </div>
     </nav>
   </header>
@@ -83,42 +102,54 @@
   <!-- main -->
   <main>
     <!-- search banner -->
-    <section class="search-banner full-height">
+    <section class="search-banner"  >
       <div class="search-banner__content">
         <h1>Let us bring you home</h1>
-        <div class="search-banner__type-selector"></div>
-        <input class="search-bar" type="text">
+        <div class="search-banner__type-selector">
+          <nav class="selector">
+            <ul>
+              <li><a href="#" class="active">Buy</a></li>
+              <li><a href="#">Sell</a></li>
+              <li><a href="#">Home Value</a></li>
+            </ul>
+          </nav>
+        </div>
+        <input class="search-bar" placeholder="Search by address, country, zipcode" type="text">
       </div>
       <div class="pointer"></div>
     </section>
     <!-- end of search banner -->
     <!-- company description -->
-    <section class="company-description">
+    <section class="company-description m-t-l">
       <div class="container">
         <div class="grid grid-2">
-          <div>
-            <img src="images/key.jpg" />
+          <div class="kendiff-image">
+              <img src="/images/key.jpg">
+              <div class="fixed-text">Experts</div>
           </div>
-          <div class="text-module align-left">
+          <div class="text-module kendiff">
             <h1 class="big-heading">The <br>Kendrick <br>Difference</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
-            <button class="btn btn-teal">About</button>
+            <a class="btn btn-green">About</a>
           </div>
-          <div class="fixed-text">Experts</div>
-          <div class="text-module">
+          
+          <div class="text-module experts">
             <h1>Partner with experts</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
-            <button class="btn btn-green">Find a Partner Agent</button>
+            <a class="btn btn-green">Find a Partner Agent</a>
+          </div>
+          <div class="experts">
+            <img src="/images/3rd.jpeg" />
           </div>
         </div>
       </div>
     </section>
     <!-- end of company description -->
     <section class="call-to-action">
-        <div class="text-module align-center">
+        <div class="text-module updates">
             <h1>Get the latest updates for new listings</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis.</p>
-            <button class="btn btn-black">Subscribe</button>
+            <button class="btn btn-black Subs">Subscribe</button>
         </div>
     </section>
     <!-- end of call to action -->
@@ -132,12 +163,13 @@
         <div  class="grid grid-3 gutter-5">
           <div class="property-card">
             <div class="property-card__image">
-              <img src="images/kendrick-logo.png" alt=""/>
+             <img src="images/kendrick-logo.png" alt=""/>
             </div>
             <div class="property-card__text">
               <h3></h3>
               <p class="property-card__property-subtitle"></p>
               <div class="property-card__text__details">
+                    <img src="images/couch.JPG"  id= "couchPic"/>
                 <p>$100,0000</p>
                 <div class="property_details flex">
                   <span class="icon-text"><svg></svg> 3bd</span>
@@ -150,6 +182,7 @@
               <h3></h3>
               <p class="property-card__property-subtitle"></p>
               <div class="property-card__text__details">
+                    
                 <p>$100,0000</p>
                 <div class="property_details flex">
                   <span class="icon-text"><svg></svg> 3bd</span>
@@ -162,7 +195,7 @@
               <h3></h3>
               <p class="property-card__property-subtitle"></p>
               <div class="property-card__text__details">
-                <p>$100,0000</p>
+                   
                 <div class="property_details flex">
                   <span class="icon-text"><svg></svg> 3bd</span>
                   <span class="icon-text"><svg></svg> 3bath</span>
@@ -174,7 +207,7 @@
         </div>
         <!-- End of Property cards -->
         <div class="text-center">
-          <button class="btn btn-green">Search Properties</button>
+          <button class="btn btn-green searchprop">Search Properties</button>
         </div>
       </div>
     </section>
@@ -192,6 +225,43 @@
       </div>
     </section>
     <!-- end of featured -->
+         <section class="Neighborhoods">
+      <div class="container">
+        <h1>Neighborhoods</h1>
+        <div class="property-card__text__details">
+          <img src="images/overview.jpg"  id= "overviewPic"/>
+          <div class="neighborhoods">
+              <div class="neighborhoods-text">
+                  <svg></svg>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer -->
+    <!-- Start Footer -->
+    <section class="footer" style="background-color: #424646; height: 50%; width: 100%;">
+    <nav>
+      <div class="left-nav">
+        <div class="user"><img src="images/box.jpeg" style="height: 225px;margin-left: 160px;margin-top: 80px;"></div>
+        <div id="footer" style= "margin-left: 148px;">
+        <ul>
+        <li class="kendrickrealty"> Kendrick Realty</li>
+        <li>91 Gregory Lane #12</li>
+        <li> Pleasant Hill, CA 94523</li>
+           </ul>
+        </div>
+     
+      </div>
+     
+
+    </nav>
+  </section>
+
+    <!-- End Footer -->
+    <!-- End Footer -->
     
   </main>
   <!-- end of main -->
