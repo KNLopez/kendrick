@@ -116,10 +116,18 @@ section.search-banner {
 
 }
 .company-description {
-  height : 1200px;
-  width : 100%;
+  margin-top : 359px;
 }
-
+div.text-module.align-left.kendiff{
+  margin-left: 50%;
+  font-size: 21px;
+  padding-right: 167px; 
+}
+div.text-module.experts {
+  padding : 116px;
+  margin-right : 50%;
+  font-size : 21px;
+}
 .featured {
   height : 800px;
   width : 100%;
@@ -198,29 +206,11 @@ height : 950px;
 	width : 100%;
 }
 
-.featured {
-  text-align : center; 
-}
+
 .white-bg {
   font-size : 25px;
 }
-div.text-module.experts {
-  padding : 116px;
-  margin-right : 50%;
-  font-size : 21px;
-}
-div.text-module.align-left.kendiff {
-  margin-left: 50%;
-  font-size: 21px;
-  padding-right: 167px; 
-}
-div.text-module.updates p {
-  text-align: center;
-}
-div.text-module.updates h1{
-  text-align: center;
-  font-size: 43px;
-}
+
 .Neighborhoods{
   height: 500px;
   width: 100%;
