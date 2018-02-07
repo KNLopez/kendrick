@@ -102,17 +102,15 @@ button.btn.btn-green.searchprop{
   padding-top : 15px;
   padding-bottom : 15px;
   margin-inline-start : 792px;
-
 }
 section.search-banner {
   height: 600px;
   width: 100%;
-  background-image: url("2nd.jpeg");
+  background-color: #c2b5b5;
 }
 .search-banner {
   height : 600px;
   width : 100%;
-
 }
 .company-description {
   height : 1200px;
@@ -136,38 +134,29 @@ section.search-banner {
   color : white;
 }
 .search-banner__content {
-  background-color : pink;
   height : 200px;
   width : 100%;
 }
 .search-bar {
-
   width : 629px;
   padding : 15px;
   margin-left : 588px;
-  margin-top : 30px;
-    
+  margin-top : 30px;  
 }
 .firstPic img {
   width: 345px;
   height: 290px;
   margin-top: 12px;
+  float: left;
 }
 .thirdPic img {
   width: 530px;
   height: 350px;
   float: right;
   margin-top: -5px;
-
-
-  left : 263px;
-  top : 336px;
-  width : 629px;
-  height : 58px;
-  padding-left : 15px;
-  padding-right : 15px;
-  margin : 0 auto;
-  display : inline-block;
+}
+.text-module {
+  float : right;
 }
 .firstPic img{
     width: 350px;
@@ -190,6 +179,24 @@ text-align: justify;
 }
 .align-right h1{
   font-size : 35px;
+}
+
+#couchPic{
+  width: 360px;
+  height: 300px;
+}
+#couchPic2{
+  width: 360px;
+  height: 300px;
+}
+#couchPic3{
+  width: 360px;
+  height: 300px;
+}
+.footer{
+	background-color: gray;
+	height: 50%;
+	width : 100%;
 }
 .align-right p{
   text-align: justify;
