@@ -122,48 +122,26 @@ section.search-banner {
 }
 h1.big-heading{
 float: right;
+margin-top: 203px;
 margin-right: 51%;
 font-size: 54px;
 color: #212121;
 
 }
-.align-left {
-  float : left; 
-  margin-left : 50%;
-  border-left: 10px
-}
-.align-left p{
-    text-align: left;
-    margin-right: 296px;
-    line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-}
-.align-right {
-  float : right; 
-  margin-right : 50%;
-}
-.align-right h1{
-  font-size: 35px;
-margin-left: 541px;
-color: #212121;
-}
-.align-right p{
-	line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-    text-align: left;
-margin-left: 541px;
-margin-right: 200px;
-}
+
 .company-description {
   margin-top : 359px;
 }
 div.text-module.kendiff p {
 	color : #adadad; 
 }
+.keyimg img {
+	width: 392px;
+    margin-left: 247px;
+
+}
 div.text-module.kendiff{
-  margin-top : -372px;
+  margin-top : -884px;
   margin-left : 52%;
   font-size : 21px;
   padding-right : 167px;
@@ -186,6 +164,8 @@ div.text-module.updates {
 }
 section.call-to-action{
   width : 100%;
+  padding-top: 2px;
+  padding-bottom: 35px;
   background : #f1ecec;
 }
 div.text-module.updates p {
@@ -255,21 +235,9 @@ height : 950px;
   border-left: 10px
 }
 
-.align-left p{
-text-align: justify;
-}
-
-.align-right {
-  float : right; 
-  margin-right : 50%;
-}
-
-.align-right h1{
-  font-size : 35px;
-}
-.thirdPic img {
-  margin-top: -400px;
-
+div.fixed-text img {
+	width: 100px;
+  
 }
 .align-right ul li .third{
 margin-top: -400px;
@@ -295,30 +263,6 @@ margin-left: 106%;
   height: 300px;
 }
 
-.align-right p{
-  line-height: 1.5;
-font-size: 22px;
-color: #ADADAD;
-text-align: left;
-margin-left: 291px;
-margin-right: 117px;
-}
-
-.align-center{
-  text-align : center;
-}
-
-.align-center h1{
-  font-size : 40px;
-}
-
-.text-module p{
-  font-size : 20px;
-}
-
-.featured {
-  text-align : center; 
-}
 
 .white-bg {
   font-size : 25px;
@@ -387,4 +331,3 @@ background-color: #302e2c;
   height: 500px;
   width: 100%;
 }
-
