@@ -108,7 +108,7 @@ button.btn.btn-green.searchprop{
 section.search-banner {
   height: 600px;
   width: 100%;
-  background-image: url("2nd.jpeg");
+  background-color: #c2b5b5;
 }
 .search-banner {
   height : 600px;
@@ -128,15 +128,26 @@ section.search-banner {
   height : 500px;
   width : 100%;
 }
-.search-banner__content h1{
-  text-align : center;
-  font-size : 45px;
-  color : white;
+
+.search-banner__content{
+height : 950px;
+ width : 100%;
 }
-.search-banner__content {
-  background-color : pink;
+
+.search-banner__content h1{
+      text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-top: -459px;
+}
+#image2{
+	width: 100%;
+	height: 850px;
+{
+  
   height : 200px;
   width : 100%;
+
 }
 .search-bar {
 
@@ -146,26 +157,23 @@ section.search-banner {
   margin-top : 30px;
     
 }
-.firstPic img {
+#firstPic{
   width: 345px;
   height: 290px;
   margin-top: 12px;
+  float: left;
 }
+
 .thirdPic img {
   width: 530px;
   height: 350px;
   float: right;
   margin-top: -5px;
 
+}
 
-  left : 263px;
-  top : 336px;
-  width : 629px;
-  height : 58px;
-  padding-left : 15px;
-  padding-right : 15px;
-  margin : 0 auto;
-  display : inline-block;
+.text-module {
+  float : right;
 }
 .firstPic img{
     width: 350px;
@@ -174,6 +182,16 @@ section.search-banner {
 .big-heading {
   font-size : 60px;
 }
+
+#couchPic{
+  width: 360px;
+  height: 300px;
+}
+#overviewPic{
+  width: 360px;
+  height: 300px;
+}
+
 .footer{
 	background-color: gray;
 	height: 50%;
@@ -203,4 +221,7 @@ div.text-module.updates h1{
   text-align: center;
   font-size: 43px;
 }
-
+.Neighborhoods{
+  height: 500px;
+  width: 100%;
+}
