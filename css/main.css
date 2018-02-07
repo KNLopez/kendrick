@@ -41,10 +41,6 @@ header{
 .signin{
 	
 }
-.saved-searches li{
-	text-decoration : none;
-	display: inline; 
-}
 
 button.about{
 
@@ -150,14 +146,14 @@ button.searchprop{
     margin: 0 auto;
     display: inline-block;
 }
-<<<<<<< HEAD
+
 #kendiff{
 
 	
 }
-=======
+
 .firstPic img{
     width: 350px;
     height: 300px;
 }
->>>>>>> f96a719b315353d13df14725c4c41a75167ccebd
+
