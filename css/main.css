@@ -104,9 +104,6 @@ button.btn.btn-green.searchprop{
   margin-inline-start : 792px;
 
 }
-
-
-
 section.search-banner {
   height: 600px;
   width: 100%;
@@ -211,4 +208,13 @@ text-align: justify;
 }
 .white-bg {
   font-size : 25px;
+}
+.testimonials {
+  text-align : left;
+}
+.container {
+  font-size : 25px;
+}
+.container p{
+	margin : 0 auto;
 }
