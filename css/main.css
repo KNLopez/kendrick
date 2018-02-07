@@ -111,9 +111,7 @@ section.search-banner {
   height: 600px;
   width: 100%;
   background-image: url("2nd.jpeg");
-
- }
-
+}
 .search-banner {
   height : 600px;
   width : 100%;
@@ -141,7 +139,6 @@ section.search-banner {
   color : white;
 }
 .search-banner__content {
-
   background-color : pink;
   height : 200px;
   width : 100%;
@@ -182,7 +179,6 @@ section.search-banner {
 .firstPic img{
     width: 350px;
     height: 300px;
-
 }
 .big-heading {
   font-size : 60px;
