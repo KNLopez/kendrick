@@ -6,9 +6,17 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 */
-
+:root {
+  --main-color:#50E3C2; 
+  --light-grey: #ccc;
+  --grey-text: #515151;
+}
 * {
   font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+  color: var(--grey-text);
 }
 
 h1,h2,h3,h4,h5{
@@ -18,8 +26,11 @@ html,body{
   min-height: 100vh;
   background: #fff;
 }
+
+/* MENU */
 header{
   height: auto;
+  border-bottom: 1px solid #efefef;
 }
 nav{
   max-width: 90%;
@@ -49,7 +60,7 @@ nav .right-navigation .main-menu{
   margin-right: 1em;
 }
 nav .right-navigation .saved-searches{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 nav ul{
   margin: 0;
@@ -61,13 +72,168 @@ nav ul li{
   text-decoration: none;
   padding: 0 1em;
 }
-nav ul li a{
+nav a{
   text-decoration: none;
   padding: .4em 0;
   color: #000;
   border-bottom: 3px solid transparent;
 }
 nav ul li a:hover{
-  border-bottom: 3px solid #50E3C2;
-  transition: .2s ease-in all;
+  border-bottom: 3px solid var(--main-color);
+  transition: .1s ease-in all;
+}
+
+
+/* SEARCH BANNER */
+.search-banner{
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: url('/images/2nd.jpg');
+  background-size: cover;
+}
+.search-banner__content{
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+.search-banner__content h1{
+font-size: 3em;
+letter-spacing: .07em;
+}
+
+nav.selector{
+  margin: 0 auto;
+  max-width: 380px;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+nav.selector ul{display: block;margin: 0 auto}
+
+nav.selector li a{
+  color: #fff;
+  border: 0;
+  padding: .4em 1.4em;
+  border-radius: 3px;
+}
+nav.selector li a.active{
+  background: var(--main-color);
+  border: 0;
+}
+nav.selector li a:hover{
+  background: var(--main-color);
+  border: 0;
+}
+input.search-bar{
+  width: 70%;
+  padding: 1.3em 3.4em;
+  margin-top: -5px;
+  background: #fff url('/images/search.svg') no-repeat scroll 1.2em center;
+  background-size: 1.4em;
+  border: 0;
+  border-radius: 3px;
+  letter-spacing: .06em;
+}
+/* GRID and LAYOUT */
+.text-module{
+  padding: 8%;
+}
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+  min-width: 480px;
+}
+.grid{
+  display: grid;
+}
+.grid-2{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.kendiff{
+  position: relative;
+  z-index: 3;
+}
+.kendiff-image {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.kendiff-image img{
+  width: 50%;
+  z-index: 1;
+}
+.kendiff-image .fixed-text{
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  font-size: 13em;
+  font-weight: 800;
+  color: #F5F5F5;
+  font-family: 'Merriweather', serif;
+  z-index: 0;
+}
+.text-module.kendiff{
+  padding: 20%;
+}
+.company-description p{
+  line-height: 160%;
+}
+.experts{
+  padding-right: 10%;
+}
+.experts img{
+  z-index: 1;
+  position: relative;
+}
+
+/* UTILITIES */
+img{
+  width: 100%;
+}
+.m-t-l{
+  margin-top: 10em;
+}
+.text-module a.btn{
+  display: inline-block;
+}
+.big-heading{
+  font-size: 350%;
+  font-weight: 800;
+  margin: 0;
+}
+/* BUTTON STYLES */
+.btn{
+  padding: .8em 2em;
+  border: 0;
+}
+.btn-green{
+  color:white;
+  background: var(--main-color);
+}
+.btn.btn-green.btn-outline{
+  color: #000;
+  border: 2px solid var(--main-color);
+  background: transparent;
+}
+
+/* PLACEHOLDER */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--light-grey);
+  font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--light-grey);
+  font-weight: 100;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--light-grey);
+  font-weight: 100;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--light-grey);
+  font-weight: 100;
 }
