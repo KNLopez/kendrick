@@ -76,7 +76,6 @@ button.btn.btn-green.findpartgent{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-left: 42%;
 }
 button.btn.btn-black.Subs{
   background : #000;
@@ -123,7 +122,7 @@ section.search-banner {
 }
 h1.big-heading{
 float: right;
-margin-right: 54%;
+margin-right: 51%;
 font-size: 54px;
 color: #212121;
 
@@ -164,14 +163,16 @@ div.text-module.kendiff p {
 	color : #adadad; 
 }
 div.text-module.kendiff{
-  margin-left: 50%;
-  font-size: 21px;
-  padding-right: 167px;
+  margin-top : -372px;
+  margin-left : 52%;
+  font-size : 21px;
+  padding-right : 167px;
 
 }
 div.text-module.experts {
   padding : 116px;
-  margin-right : 50%;
+  margin-right : 52%;
+  text-align : left;
   font-size : 21px;
 }
 div.text-module.experts p{
@@ -257,15 +258,13 @@ height : 950px;
 .align-left p{
 text-align: justify;
 }
-<<<<<<< HEAD
+
 
 .align-right {
   float : right; 
   margin-right : 50%;
 }
 
-=======
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
 .align-right h1{
   font-size : 35px;
 }
@@ -281,7 +280,7 @@ margin-left: 106%;
 
 #couchPic {
   width: 360px;
-<<<<<<< HEAD
+
   height: 304%;
   display: inline;
 }
@@ -291,15 +290,12 @@ margin-left: 106%;
 	height: 50%;
 	width : 100%;
 }
-=======
-  height: 300px;
+
 }
 #overviewPic{
   width: 360px;
   height: 300px;
 }
-
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
 
 .align-right p{
   line-height: 1.5;
@@ -329,7 +325,6 @@ margin-right: 117px;
 .white-bg {
   font-size : 25px;
 }
-<<<<<<< HEAD
 
 .Neighborhoods{
   padding: 320px;
@@ -367,7 +362,7 @@ width: 5px;
   height: 3px;
   display: inline;
 }
-=======
+
 .label #footer{
 	text-decoration: none;
 }
@@ -394,5 +389,3 @@ background-color: #302e2c;
   height: 500px;
   width: 100%;
 }
-
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
