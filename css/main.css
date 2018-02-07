@@ -76,9 +76,8 @@ button.btn.btn-green.findpartgent{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-left: 42%;
 }
-button.btn.btn-black.Subs{
+button.btn.btn-black.Subs.pull.center{
   background : #000;
   color : #E8E8E8;
   padding-left : 28px;
@@ -89,7 +88,7 @@ button.btn.btn-black.Subs{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-
+  margin-inline-start : 448px;
 }
 button.btn.btn-green.searchprop{
   background : #4FE3C1;
@@ -107,92 +106,22 @@ button.btn.btn-green.searchprop{
 }
 
 section.search-banner {
-  height: 980px;
+  height: 600px;
   width: 100%;
-
+  background-color: #c2b5b5;
 }
 .search-banner {
   height : 600px;
   width : 100%;
-}
-.search-bar{
 
-	margin-left: 30%;
-    height: 48px;
-    width: 703px;
-}
-h1.big-heading{
-float: right;
-margin-right: 67%;
-font-size: 54px;
-color: #212121;
-
-}
-.align-left {
-  float : left; 
-  margin-left : 50%;
-  border-left: 10px
-}
-.align-left p{
-    text-align: left;
-    margin-right: 296px;
-    line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-}
-.align-right {
-  float : right; 
-  margin-right : 50%;
-}
-.align-right h1{
-  font-size: 35px;
-margin-left: 541px;
-color: #212121;
-}
-.align-right p{
-	line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-    text-align: left;
-margin-left: 541px;
-margin-right: 200px;
 }
 .company-description {
-  margin-top : 359px;
-}
-div.text-module.align-left.kendiff p {
-	color : #adadad; 
-}
-div.text-module.align-left.kendiff{
-  margin-left : 50%;
-  font-size : 21px;
-  padding-right : 167px;
-
-}
-div.text-module.experts {
-  padding : 116px;
-  margin-right : 50%;
-  font-size : 21px;
-}
-div.text-module.experts p{
-  color : #adadad;
-}
-div.text-module.updates {
-  text-align: center;
-  margin: 0 auto;
-  width : 56%;
-  
-}
-section.call-to-action{
+  height : 1200px;
   width : 100%;
-  background : #f1ecec;
 }
-div.text-module.updates p {
-  font-size : 21px;
-  color : #949494;
-}
-div.text-module.updates h1{
-  font-size: 43px;
+.call-to-action {
+  height : 250px;
+  width : 100%;
 }
 .featured {
   height : 800px;
@@ -231,12 +160,23 @@ height : 950px;
   margin-top : 30px;
     
 }
-
-.first img {
+#firstPic{
   width: 345px;
   height: 290px;
   margin-top: 12px;
+  float: left;
+}
+
+.thirdPic img {
+  width: 530px;
+  height: 350px;
   float: right;
+  margin-top: -5px;
+
+}
+
+.text-module {
+  float : right;
 }
 
 .firstPic img{
@@ -257,31 +197,18 @@ height : 950px;
 .align-left p{
 text-align: justify;
 }
-<<<<<<< HEAD
 
 .align-right {
   float : right; 
   margin-right : 50%;
 }
 
-=======
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
 .align-right h1{
   font-size : 35px;
 }
-.thirdPic img {
-  margin-top: -400px;
-
-}
-.align-right ul li .third{
-margin-top: -400px;
-margin-left: 106%;
-}
-
 
 #couchPic {
   width: 360px;
-<<<<<<< HEAD
   height: 304%;
   display: inline;
 }
@@ -291,23 +218,9 @@ margin-left: 106%;
 	height: 50%;
 	width : 100%;
 }
-=======
-  height: 300px;
-}
-#overviewPic{
-  width: 360px;
-  height: 300px;
-}
-
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
 
 .align-right p{
-  line-height: 1.5;
-font-size: 22px;
-color: #ADADAD;
-text-align: left;
-margin-left: 291px;
-margin-right: 117px;
+  text-align: justify;
 }
 
 .align-center{
@@ -329,7 +242,6 @@ margin-right: 117px;
 .white-bg {
   font-size : 25px;
 }
-<<<<<<< HEAD
 
 .Neighborhoods{
   padding: 320px;
@@ -357,42 +269,14 @@ margin-right: 117px;
   height: 304px;
   display: inline;
 }
-.property-card__text__details{
- width: 5px;
-  height: 3px;
+
+#forestPic {
+  width: 595px;
+  height: 304px;
   display: inline;
 }
-.forestPic {
-width: 5px;
-  height: 3px;
+#california-Vacaville{
+  width: 595px;
+  height: 304px;
   display: inline;
 }
-=======
-.label #footer{
-	text-decoration: none;
-}
-.user img{
-	width: 220px;
-}
-section.footer{
-	margin-top: 105%;
-background-color: #302e2c;
-}
-
-.footer{
-	background-color: gray;
-	height: 50%;
-	width : 100%;
-}
-
-
-.white-bg {
-  font-size : 25px;
-}
-
-.Neighborhoods{
-  height: 500px;
-  width: 100%;
-}
-
->>>>>>> a34828ca5e6fa51bcc2ae21b5c325f0dbbbce23e
