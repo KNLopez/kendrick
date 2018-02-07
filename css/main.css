@@ -160,7 +160,7 @@ height : 950px;
   margin-top : 30px;
     
 }
-.firstPic img {
+#firstPic{
   width: 345px;
   height: 290px;
   margin-top: 12px;
@@ -205,16 +205,11 @@ text-align: justify;
   width: 360px;
   height: 300px;
 }
-#couchPic2{
+#overviewPic{
   width: 360px;
   height: 300px;
 }
-#couchPic3{
-  width: 350px;
-  height: 300px;
 }
-
-
 
 .footer{
 	background-color: gray;
@@ -238,4 +233,8 @@ text-align: justify;
 }
 .white-bg {
   font-size : 25px;
+}
+.Neighborhoods{
+  height: 500px;
+  width: 100%;
 }
