@@ -99,9 +99,11 @@ button.searchprop{
 }
 
 
-.search-banner {
-	height: 600px;
-	width: 100%;
+section.search-banner {
+  height: 600px;
+  width: 100%;
+  background-image: url("2nd.jpeg");
+  
 }
 .company-description {
 	height: 1200px;
@@ -127,21 +129,26 @@ button.searchprop{
   text-align : left;
 }
 .search-banner__content {
-    background-color: pink;
-    height: 200px;
-    width: 100%;
+
+  height : 200px;
+  width : 100%;
 }
 .search-bar {
-    left: 263px;
-    top: 336px;
-    width: 629px;
-    height: 58px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    display: inline-block;
+  width : 629px;
+  padding : 15px;
+  margin-left : 588px;
+  margin-top : 30px;
+    
 }
-.firstPic img{
-    width: 350px;
-    height: 300px;
+.firstPic img {
+  width: 345px;
+  height: 290px;
+  margin-top: 12px;
+}
+.thirdPic img {
+  width: 530px;
+  height: 350px;
+  float: right;
+  margin-top: -5px;
+
 }
