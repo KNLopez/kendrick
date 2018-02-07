@@ -102,7 +102,9 @@ button.btn.btn-green.searchprop{
   padding-top : 15px;
   padding-bottom : 15px;
   margin-inline-start : 792px;
+
 }
+
 section.search-banner {
   height: 600px;
   width: 100%;
@@ -111,6 +113,7 @@ section.search-banner {
 .search-banner {
   height : 600px;
   width : 100%;
+
 }
 .company-description {
   height : 1200px;
@@ -128,20 +131,34 @@ section.search-banner {
   height : 500px;
   width : 100%;
 }
-.search-banner__content h1{
-  text-align : center;
-  font-size : 45px;
-  color : white;
+
+.search-banner__content{
+height : 950px;
+ width : 100%;
 }
-.search-banner__content {
+
+.search-banner__content h1{
+      text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-top: -459px;
+}
+#image2{
+	width: 300px;
+	height: 300px;
+{
+  
   height : 200px;
   width : 100%;
+
 }
 .search-bar {
+
   width : 629px;
   padding : 15px;
   margin-left : 588px;
-  margin-top : 30px;  
+  margin-top : 30px;
+    
 }
 .firstPic img {
   width: 345px;
@@ -149,12 +166,15 @@ section.search-banner {
   margin-top: 12px;
   float: left;
 }
+
 .thirdPic img {
   width: 530px;
   height: 350px;
   float: right;
   margin-top: -5px;
+
 }
+
 .text-module {
   float : right;
 }
@@ -189,10 +209,14 @@ text-align: justify;
   width: 360px;
   height: 300px;
 }
+}
 #couchPic3{
-  width: 360px;
+  width: 350px;
   height: 300px;
 }
+
+
+
 .footer{
 	background-color: gray;
 	height: 50%;
@@ -216,12 +240,36 @@ text-align: justify;
 .white-bg {
   font-size : 25px;
 }
-.testimonials {
-  text-align : left;
+.grid {
+ 	column-count: 2;
 }
-.container {
-  font-size : 25px;
+.properties {
+ 	column-count: 3;
 }
-.container p{
-	margin : 0 auto;
+#pic1 {
+	height: 300px;
+	width: 450px;
+
+}
+.property_details {
+ 	column-count: 3;
+}
+.property-card {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	background-color: gray;
+	height: 450px;
+	width: 500px;
+}
+.grid {
+	padding-left: 50px;
+	padding-bottom :50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+.left {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 60px;
 }
