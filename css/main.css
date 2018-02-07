@@ -8,31 +8,40 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 header{
-	height: 70px;
-	width: 100%;
-	margin: 0 auto;
+  height : 70px;
+  width : 100%;
+  margin : 0 auto;
 }
 .logo{
-	margin-top: 8px;
-	margin-left: 38px;
+  margin-top : 8px;
+  margin-left : 38px;
 }
 .label{
-	margin-left: 169px;
-    margin-top: -19px;
+  margin-left : 169px;
+  margin-top : -19px;
+  font-size : 15px;
 }
 .main-menu{
-	float : right;
-	margin-right: 400px;
-	margin-top: -45px;
+  float : right;
+  margin-right : 400px;
+  margin-top : -32px;
+  color : black;
+  font-size : 15px;
 }
 .main-menu li{
-	text-decoration : none;
-	display: inline; 
+  text-decoration : none;
+  display : inline; 
+  margin-right : 8px;
+}
+.main-menu li a{
+  color : black;
+  text-decoration : none;
 }
 .right {
 	float: right
 }
 .saved-searches{
+<<<<<<< HEAD
 	
 }
 .saved-homes{
@@ -40,85 +49,78 @@ header{
 }
 .signin{
 	
+  float : right;
 }
-
+.saved-searches li{
+  text-decoration : none;
+  display : inline; 
+}
 button.about{
-
-	background: #4FE3C1;
-	color: #F9FBFA;;
-	padding-left: 28px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;																																															
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-right: 28px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	float: right;
-
+  background : #4FE3C1;
+  color : #F9FBFA;;
+  padding-left : 28px;
+  border-top-right-radius : 5px;
+  border-top-left-radius : 5px;																																															
+  border-bottom-right-radius : 5px;
+  border-bottom-left-radius : 5px;
+  padding-right : 28px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  float : right;
 }
 button.findpartgent{
-
-	background: #4FE3C1;
-	color: #F9FBFA;;
-	padding-left: 28px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;																																															
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-right: 28px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-
+  background : #4FE3C1;
+  color : #F9FBFA;;
+  padding-left : 28px;
+  border-top-right-radius : 5px;
+  border-top-left-radius : 5px;																																															
+  border-bottom-right-radius : 5px;
+  border-bottom-left-radius : 5px;
+  padding-right : 28px;
+  padding-top : 15px;
+  padding-bottom : 15px;
 }
 button.Subs{
-
-	background: #000;
-	color: #E8E8E8;
-	padding-left: 28px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;																																															
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-right: 28px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-inline-start: 573px;
+  background : #000;
+  color : #E8E8E8;
+  padding-left : 28px;
+  border-top-right-radius : 5px;
+  border-top-left-radius : 5px;																																															
+  border-bottom-right-radius : 5px;
+  border-bottom-left-radius : 5px;
+  padding-right : 28px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  margin-inline-start : 573px;
 }
-
 button.searchprop{
-
-	background: #4FE3C1;
-	color: #F9FBFA;;
-	padding-left: 28px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;																																															
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	padding-right: 28px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-inline-start: 573px;
-
-
+  background : #4FE3C1;
+  color : #F9FBFA;;
+  padding-left : 28px;
+  border-top-right-radius : 5px;
+  border-top-left-radius : 5px;																																															
+  border-bottom-right-radius : 5px;
+  border-bottom-left-radius : 5px;
+  padding-right : 28px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  margin-inline-start : 573px;
 }
-
-
 .search-banner {
-	height: 600px;
-	width: 100%;
+  height : 600px;
+  width : 100%;
 }
 .company-description {
-	height: 1200px;
-	width: 100%;
+  height : 1200px;
+  width : 100%;
 }
 .call-to-action {
-	height: 250px;
-	width: 100%;
+  height : 250px;
+  width : 100%;
 }
 .featured {
-	height : 800px;
-	width : 100%;
+  height : 800px;
+  width : 100%;
 }
 .testimonials {
   height : 500px;
@@ -126,25 +128,26 @@ button.searchprop{
 }
 .search-banner__content h1{
   text-align : center;
-}
-.big-heading{
-  float : right;
-  text-align : left;
+  font-size : 45px;
+  color : white;
 }
 .search-banner__content {
-    background-color: pink;
-    height: 200px;
-    width: 100%;
+  background-color : pink;
+  height : 200px;
+  width : 100%;
 }
 .search-bar {
-    left: 263px;
-    top: 336px;
-    width: 629px;
-    height: 58px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    display: inline-block;
+  left : 263px;
+  top : 336px;
+  width : 629px;
+  height : 58px;
+  padding-left : 15px;
+  padding-right : 15px;
+  margin : 0 auto;
+  display : inline-block;
+}
+.text-module {
+  float : right;
 }
 
 #kendiff{
@@ -153,6 +156,7 @@ button.searchprop{
 }
 
 .firstPic img{
+
     width: 350px;
     height: 300px;
 }
