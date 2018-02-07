@@ -196,3 +196,8 @@ section.search-banner {
   font-size : 35px;
 }
 
+.footer{
+	background-color: gray;
+	height: 50%;
+	width : 100%;
+}
