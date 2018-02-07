@@ -55,15 +55,15 @@ margin-left: 20px;
 button.about{
   background : #4FE3C1;
   color : #F9FBFA;;
-  padding-left : 28px;
+  padding-left : 68px;
   border-top-right-radius : 5px;
   border-top-left-radius : 5px;																																															
   border-bottom-right-radius : 5px;
   border-bottom-left-radius : 5px;
-  padding-right : 28px;
+  padding-right : 68px;
   padding-top : 15px;
   padding-bottom : 15px;
-  float : right;
+ 
 }
 button.findpartgent{
   background : #4FE3C1;
@@ -88,7 +88,7 @@ button.Subs{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 573px;
+  margin-inline-start : 448px;
 }
 button.searchprop{
   background : #4FE3C1;
@@ -101,7 +101,7 @@ button.searchprop{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 573px;
+  margin-inline-start : 747px;
 }
 
 
