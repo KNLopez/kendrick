@@ -7,384 +7,67 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 */
 
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Merriweather', serif;
+}
+html,body{
+  min-height: 100vh;
+  background: #fff;
+}
 header{
-  height : 70px;
-  width : 100%;
-  margin : 0 auto;
+  height: auto;
 }
-.logo{
-  margin-top : 8px;
-  margin-left : 38px;
-}
-.label{
-  margin-left : 169px;
-  margin-top : -19px;
-  font-size : 15px;
-}
-.main-menu{
-  float : right;
-  margin-right : 60px;
-  margin-top : -32px;
-  color : black;
-  font-size : 15px;
-}
-.main-menu li{
-  text-decoration : none;
-  display : inline; 
-  margin-right : 8px;
-}
-.main-menu li a{
-  color : black;
-  text-decoration : none;
-}
-.main-menu .contact {
-	margin-left: 18px;
-}
-.main-menu .about{
-	margin-left: 18px;
-}
-.main-menu .saved-homes{
-margin-left: 24px;
-}
-.main-menu .saved-searches{
-margin-left: 20px;
-}
-.signin .btn .btn-white .signin{
-	border-color: #82caba;
-}
-button.btn.btn-teal.about.pull.center{
-  background : #4FE3C1;
-  color : #F9FBFA;;
-  padding-left : 68px;
-  border-top-right-radius : 5px;
-  border-top-left-radius : 5px;																																															
-  border-bottom-right-radius : 5px;
-  border-bottom-left-radius : 5px;
-  padding-right : 68px;
-  padding-top : 15px;
-  padding-bottom : 15px;
- 
-}
-button.btn.btn-green.findpartgent{
-  background : #4FE3C1;
-  color : #F9FBFA;;
-  padding-left : 28px;
-  border-top-right-radius : 5px;
-  border-top-left-radius : 5px;																																															
-  border-bottom-right-radius : 5px;
-  border-bottom-left-radius : 5px;
-  padding-right : 28px;
-  padding-top : 15px;
-  padding-bottom : 15px;
-}
-button.btn.btn-black.Subs{
-  background : #000;
-  color : #E8E8E8;
-  padding-left : 28px;
-  border-top-right-radius : 5px;
-  border-top-left-radius : 5px;																																															
-  border-bottom-right-radius : 5px;
-  border-bottom-left-radius : 5px;
-  padding-right : 28px;
-  padding-top : 15px;
-  padding-bottom : 15px;
-
-}
-button.btn.btn-green.searchprop{
-  background : #4FE3C1;
-  color : #F9FBFA;;
-  padding-left : 28px;
-  border-top-right-radius : 5px;
-  border-top-left-radius : 5px;																																															
-  border-bottom-right-radius : 5px;
-  border-bottom-left-radius : 5px;
-  padding-right : 28px;
-  padding-top : 15px;
-  padding-bottom : 15px;
-  margin-inline-start : 792px;
-
-}
-
-section.search-banner {
-  height: 980px;
-  width: 100%;
-
-}
-.search-banner {
-  height : 600px;
-  width : 100%;
-}
-.search-bar{
-
-	margin-left: 30%;
-    height: 48px;
-    width: 703px;
-}
-h1.big-heading{
-float: right;
-margin-right: 51%;
-font-size: 54px;
-color: #212121;
-
-}
-.align-left {
-  float : left; 
-  margin-left : 50%;
-  border-left: 10px
-}
-.align-left p{
-    text-align: left;
-    margin-right: 296px;
-    line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-}
-.align-right {
-  float : right; 
-  margin-right : 50%;
-}
-.align-right h1{
-  font-size: 35px;
-margin-left: 541px;
-color: #212121;
-}
-.align-right p{
-	line-height: 1.5;
-    font-size: 22px;
-    color: #ADADAD;
-    text-align: left;
-margin-left: 541px;
-margin-right: 200px;
-}
-.company-description {
-  margin-top : 359px;
-}
-div.text-module.kendiff p {
-	color : #adadad; 
-}
-div.text-module.kendiff{
-  margin-top : -372px;
-  margin-left : 52%;
-  font-size : 21px;
-  padding-right : 167px;
-
-}
-div.text-module.experts {
-  padding : 116px;
-  margin-right : 52%;
-  text-align : left;
-  font-size : 21px;
-}
-div.text-module.experts p{
-  color : #adadad;
-}
-div.text-module.updates {
-  text-align: center;
+nav{
+  max-width: 90%;
   margin: 0 auto;
-  width : 56%;
-  
+  display: flex;
+  justify-content:  space-between;
+  padding: 1.2em 0;
 }
-section.call-to-action{
-  width : 100%;
-  background : #f1ecec;
+nav .left-navigation{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-div.text-module.updates p {
-  font-size : 21px;
-  color : #949494;
+nav .left-navigation .logo{
+margin-right: 1em;
 }
-div.text-module.updates h1{
-  font-size: 43px;
-}
-.featured {
-  height : 800px;
-  width : 100%;
-}
-.testimonials {
-  height : 500px;
-  width : 100%;
-}
-
-.search-banner__content{
-height : 950px;
- width : 100%;
-}
-
-.search-banner__content h1{
-      text-align: center;
-    font-size: 48px;
-    color: white;
-    margin-top: -459px;
-}
-#image2{
-	width: 100%;
-	height: 850px;
-{
-  
-  height : 200px;
-  width : 100%;
-
-}
-.search-bar {
-
-  width : 629px;
-  padding : 15px;
-  margin-left : 588px;
-  margin-top : 30px;
-    
-}
-
-.first img {
-  width: 345px;
-  height: 290px;
-  margin-top: 12px;
+nav .right-navigation{
   float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-.firstPic img{
-    width: 350px;
-    height: 300%;
+nav .right-navigation .main-menu{
+  margin-right: 1em;
 }
-
-.big-heading {
-  font-size : 60px;
+nav .right-navigation .saved-searches{
+  margin-right: 1em;
 }
-
-.align-left {
-  float : left; 
-  margin-left : 50%;
-  border-left: 10px
+nav ul{
+  margin: 0;
+  padding: 0;
 }
-
-.align-left p{
-text-align: justify;
+nav ul li{
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 1em;
 }
-
-.align-right {
-  float : right; 
-  margin-right : 50%;
+nav ul li a{
+  text-decoration: none;
+  padding: .4em 0;
+  color: #000;
+  border-bottom: 3px solid transparent;
 }
-
-.align-right h1{
-  font-size : 35px;
+nav ul li a:hover{
+  border-bottom: 3px solid #50E3C2;
+  transition: .2s ease-in all;
 }
-.thirdPic img {
-  margin-top: -400px;
-
-}
-.align-right ul li .third{
-margin-top: -400px;
-margin-left: 106%;
-}
-
-
-#couchPic {
-  width: 360px;
-
-  height: 304%;
-  display: inline;
-}
-
-.footer{
-	background-color: gray;
-	height: 50%;
-	width : 100%;
-}
-
-#overviewPic{
-  width: 360px;
-  height: 300px;
-}
-
-.align-right p{
-  line-height: 1.5;
-font-size: 22px;
-color: #ADADAD;
-text-align: left;
-margin-left: 291px;
-margin-right: 117px;
-}
-
-.align-center{
-  text-align : center;
-}
-
-.align-center h1{
-  font-size : 40px;
-}
-
-.text-module p{
-  font-size : 20px;
-}
-
-.featured {
-  text-align : center; 
-}
-
-.white-bg {
-  font-size : 25px;
-}
-
-.Neighborhoods{
-  padding: 320px;
-}
-
-#carouselPic {
-  width: 595px;
-  height: 304px;
-  display: inline;
-}
-
-#forestPic  {
-  width: 595px;
-  height: 304px;
-  display: inline;
-}
-
-#dinePic {
-  width: 595px;
-  height: 304px;
-  display: inline;
-}
-#overviewPic {
-  width: 595px;
-  height: 304px;
-  display: inline;
-}
-.property-card__text__details{
- width: 5px;
-  height: 3px;
-  display: inline;
-}
-.forestPic {
-width: 5px;
-  height: 3px;
-  display: inline;
-}
-
-.label #footer{
-	text-decoration: none;
-}
-.user img{
-	width: 220px;
-}
-section.footer{
-	margin-top: 105%;
-background-color: #302e2c;
-}
-
-.footer{
-	background-color: gray;
-	height: 50%;
-	width : 100%;
-}
-
-
-.white-bg {
-  font-size : 25px;
-}
-
-.Neighborhoods{
-  height: 500px;
-  width: 100%;
-}
-
