@@ -91,7 +91,7 @@ nav ul li a:hover{
   display: flex;
   justify-content: center;
   align-items:center;
-  background: url('/images/2nd.jpg');
+  background: url('../images/2nd.jpg');
   background-size: cover;
 }
 .search-banner__content{
@@ -131,7 +131,7 @@ input.search-bar{
   width: 70%;
   padding: 1.3em 3.4em;
   margin-top: -5px;
-  background: #fff url('/images/search.svg') no-repeat scroll 1.2em center;
+  background: #fff url('../images/search.svg') no-repeat scroll 1.2em center;
   background-size: 1.4em;
   border: 0;
   border-radius: 3px;
