@@ -76,6 +76,7 @@ button.btn.btn-green.findpartgent{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
+  margin-left: 42%;
 }
 button.btn.btn-black.Subs{
   background : #000;
@@ -106,14 +107,55 @@ button.btn.btn-green.searchprop{
 }
 
 section.search-banner {
-  height: 600px;
+  height: 980px;
   width: 100%;
-  background-color: #c2b5b5;
+
 }
 .search-banner {
   height : 600px;
   width : 100%;
+}
+.search-bar{
 
+	margin-left: 30%;
+    height: 48px;
+    width: 703px;
+}
+h1.big-heading{
+float: right;
+margin-right: 67%;
+font-size: 54px;
+color: #212121;
+
+}
+.align-left {
+  float : left; 
+  margin-left : 50%;
+  border-left: 10px
+}
+.align-left p{
+    text-align: left;
+    margin-right: 296px;
+    line-height: 1.5;
+    font-size: 22px;
+    color: #ADADAD;
+}
+.align-right {
+  float : right; 
+  margin-right : 50%;
+}
+.align-right h1{
+  font-size: 35px;
+margin-left: 541px;
+color: #212121;
+}
+.align-right p{
+	line-height: 1.5;
+    font-size: 22px;
+    color: #ADADAD;
+    text-align: left;
+margin-left: 541px;
+margin-right: 200px;
 }
 .company-description {
   margin-top : 359px;
@@ -189,21 +231,13 @@ height : 950px;
   margin-top : 30px;
     
 }
-#firstPic{
+
+.first img {
   width: 345px;
   height: 290px;
   margin-top: 12px;
-  float: left;
-}
-
-.thirdPic img {
-  width: 530px;
-  height: 350px;
   float: right;
-  margin-top: -5px;
-
 }
-
 .firstPic img{
     width: 350px;
     height: 300px;
@@ -212,6 +246,27 @@ height : 950px;
   font-size : 60px;
 }
 
+.align-left {
+  float : left; 
+  margin-left : 50%;
+  border-left: 10px
+}
+.align-left p{
+text-align: justify;
+}
+.align-right h1{
+  font-size : 35px;
+}
+.thirdPic img {
+  margin-top: -400px;
+
+}
+.align-right ul li .third{
+margin-top: -400px;
+margin-left: 106%;
+}
+
+
 #couchPic{
   width: 360px;
   height: 300px;
@@ -219,6 +274,41 @@ height : 950px;
 #overviewPic{
   width: 360px;
   height: 300px;
+}
+
+
+.align-right p{
+  line-height: 1.5;
+font-size: 22px;
+color: #ADADAD;
+text-align: left;
+margin-left: 291px;
+margin-right: 117px;
+}
+.align-center{
+  text-align : center;
+}
+.align-center h1{
+  font-size : 40px;
+}
+.text-module p{
+  font-size : 20px;
+}
+.featured {
+  text-align : center; 
+}
+.white-bg {
+  font-size : 25px;
+}
+.label #footer{
+	text-decoration: none;
+}
+.user img{
+	width: 220px;
+}
+section.footer{
+	margin-top: 105%;
+background-color: #302e2c;
 }
 
 .footer{
@@ -236,3 +326,4 @@ height : 950px;
   height: 500px;
   width: 100%;
 }
+
