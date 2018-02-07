@@ -178,37 +178,39 @@ height : 950px;
 .text-module {
   float : right;
 }
+
 .firstPic img{
     width: 350px;
-    height: 300px;
+    height: 300%;
 }
+
 .big-heading {
   font-size : 60px;
 }
+
 .align-left {
   float : left; 
   margin-left : 50%;
   border-left: 10px
 }
+
 .align-left p{
 text-align: justify;
 }
+
 .align-right {
   float : right; 
   margin-right : 50%;
 }
+
 .align-right h1{
   font-size : 35px;
 }
 
-#couchPic{
+#couchPic {
   width: 360px;
-  height: 300px;
-}
-#overviewPic{
-  width: 360px;
-  height: 300px;
-}
+  height: 304%;
+  display: inline;
 }
 
 .footer{
@@ -216,25 +218,64 @@ text-align: justify;
 	height: 50%;
 	width : 100%;
 }
+
 .align-right p{
   text-align: justify;
 }
+
 .align-center{
   text-align : center;
 }
+
 .align-center h1{
   font-size : 40px;
 }
+
 .text-module p{
   font-size : 20px;
 }
+
 .featured {
   text-align : center; 
 }
+
 .white-bg {
   font-size : 25px;
 }
+
 .Neighborhoods{
-  height: 500px;
-  width: 100%;
+  padding: 320px;
+}
+
+#carouselPic {
+  width: 595px;
+  height: 304px;
+  display: inline;
+}
+
+#forestPic  {
+  width: 595px;
+  height: 304px;
+  display: inline;
+}
+
+#dinePic {
+  width: 595px;
+  height: 304px;
+  display: inline;
+}
+#overviewPic {
+  width: 595px;
+  height: 304px;
+  display: inline;
+}
+.property-card__text__details{
+ width: 5px;
+  height: 3px;
+  display: inline;
+}
+.forestPic {
+width: 5px;
+  height: 3px;
+  display: inline;
 }
