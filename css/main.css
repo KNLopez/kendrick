@@ -142,3 +142,9 @@ button.searchprop{
   width : 350px;
   height : 300px;
 }
+.big-heading {
+  border-right : 50%;
+  font-size : 60px;
+  float : left; 
+  margin-left : 50%;
+}
