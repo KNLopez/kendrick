@@ -23,7 +23,7 @@ header{
 }
 .main-menu{
   float : right;
-  margin-right : 400px;
+  margin-right : 60px;
   margin-top : -32px;
   color : black;
   font-size : 15px;
@@ -37,24 +37,35 @@ header{
   color : black;
   text-decoration : none;
 }
-.right {
-	float: right
+.main-menu .contact {
+	margin-left: 18px;
 }
-.saved-searches{
-	
+.main-menu .about{
+	margin-left: 18px;
 }
-.saved-homes{
-	
+.main-menu .saved-homes{
+margin-left: 24px;
 }
-.signin{
-	
-  float : right;
+.main-menu .saved-searches{
+margin-left: 20px;
 }
-.saved-searches li{
-  text-decoration : none;
-  display : inline; 
+.signin .btn .btn-white .signin{
+	border-color: #82caba;
 }
-button.about{
+button.btn.btn-teal.about.pull.center{
+  background : #4FE3C1;
+  color : #F9FBFA;;
+  padding-left : 68px;
+  border-top-right-radius : 5px;
+  border-top-left-radius : 5px;																																															
+  border-bottom-right-radius : 5px;
+  border-bottom-left-radius : 5px;
+  padding-right : 68px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+ 
+}
+button.btn.btn-green.findpartgent{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -65,21 +76,8 @@ button.about{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  float : right;
 }
-button.findpartgent{
-  background : #4FE3C1;
-  color : #F9FBFA;;
-  padding-left : 28px;
-  border-top-right-radius : 5px;
-  border-top-left-radius : 5px;																																															
-  border-bottom-right-radius : 5px;
-  border-bottom-left-radius : 5px;
-  padding-right : 28px;
-  padding-top : 15px;
-  padding-bottom : 15px;
-}
-button.Subs{
+button.btn.btn-black.Subs.pull.center{
   background : #000;
   color : #E8E8E8;
   padding-left : 28px;
@@ -90,9 +88,9 @@ button.Subs{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 573px;
+  margin-inline-start : 448px;
 }
-button.searchprop{
+button.btn.btn-green.searchprop{
   background : #4FE3C1;
   color : #F9FBFA;;
   padding-left : 28px;
@@ -103,11 +101,21 @@ button.searchprop{
   padding-right : 28px;
   padding-top : 15px;
   padding-bottom : 15px;
-  margin-inline-start : 573px;
+  margin-inline-start : 792px;
+
+}
+
+
+
+section.search-banner {
+  height: 600px;
+  width: 100%;
+  background-image: url("2nd.jpeg");
 }
 .search-banner {
   height : 600px;
   width : 100%;
+
 }
 .company-description {
   height : 1200px;
@@ -136,6 +144,25 @@ button.searchprop{
   width : 100%;
 }
 .search-bar {
+
+  width : 629px;
+  padding : 15px;
+  margin-left : 588px;
+  margin-top : 30px;
+    
+}
+.firstPic img {
+  width: 345px;
+  height: 290px;
+  margin-top: 12px;
+}
+.thirdPic img {
+  width: 530px;
+  height: 350px;
+  float: right;
+  margin-top: -5px;
+
+
   left : 263px;
   top : 336px;
   width : 629px;
