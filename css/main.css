@@ -114,9 +114,79 @@ section.search-banner {
   height : 600px;
   width : 100%;
 
+
 }
 .company-description {
   height : 1200px;
+
+	margin-left: 30%;
+    height: 48px;
+    width: 703px;
+}
+h1.big-heading{
+float: right;
+margin-right: 54%;
+font-size: 54px;
+color: #212121;
+
+}
+.align-left {
+  float : left; 
+  margin-left : 50%;
+  border-left: 10px
+}
+.align-left p{
+    text-align: left;
+    margin-right: 296px;
+    line-height: 1.5;
+    font-size: 22px;
+    color: #ADADAD;
+}
+.align-right {
+  float : right; 
+  margin-right : 50%;
+}
+.align-right h1{
+  font-size: 35px;
+margin-left: 541px;
+color: #212121;
+}
+.align-right p{
+	line-height: 1.5;
+    font-size: 22px;
+    color: #ADADAD;
+    text-align: left;
+margin-left: 541px;
+margin-right: 200px;
+}
+.company-description {
+  margin-top : 359px;
+}
+div.text-module.kendiff p {
+	color : #adadad; 
+}
+div.text-module.kendiff{
+  margin-left: 50%;
+  font-size: 21px;
+  padding-right: 167px;
+
+}
+div.text-module.experts {
+  padding : 116px;
+  margin-right : 50%;
+  font-size : 21px;
+}
+div.text-module.experts p{
+  color : #adadad;
+}
+div.text-module.updates {
+  text-align: center;
+  margin: 0 auto;
+  width : 56%;
+  
+}
+section.call-to-action{
+
   width : 100%;
 }
 .call-to-action {
