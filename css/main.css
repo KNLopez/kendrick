@@ -178,7 +178,7 @@ input.search-bar{
   z-index: 0;
 }
 .text-module.kendiff{
-  padding: 20%;
+  padding: 15%;
 }
 .company-description p{
   line-height: 160%;
@@ -190,10 +190,15 @@ input.search-bar{
   z-index: 1;
   position: relative;
 }
-
+section{
+  padding: 3em 0;
+}
 /* UTILITIES */
 img{
   width: 100%;
+}
+.m-t-m{
+  margin-top: 5em;
 }
 .m-t-l{
   margin-top: 10em;
@@ -201,19 +206,39 @@ img{
 .text-module a.btn{
   display: inline-block;
 }
+.white-bg{
+  background: #fff;
+}
 .big-heading{
   font-size: 350%;
   font-weight: 800;
   margin: 0;
+  line-height: 1.3em;
+  margin-bottom: .5em;
+}
+.dotted{
+  background: url('../images/pattern-bg.png');
+}
+.call-to-action{
+  text-align:center;
+  background: #F7F7F7;
 }
 /* BUTTON STYLES */
 .btn{
   padding: .8em 2em;
   border: 0;
+  border-radius: 3px;
+}
+.btn.btn-outline{
+    padding: .4em 2em;
 }
 .btn-green{
   color:#fff;
   background: var(--main-color);
+}
+.btn-black{
+  background: #000;
+  color: #fff;
 }
 .btn.btn-green.btn-outline{
   color: #000;
