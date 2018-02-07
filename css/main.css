@@ -259,7 +259,6 @@ height : 950px;
 text-align: justify;
 }
 
-
 .align-right {
   float : right; 
   margin-right : 50%;
@@ -291,7 +290,6 @@ margin-left: 106%;
 	width : 100%;
 }
 
-}
 #overviewPic{
   width: 360px;
   height: 300px;
@@ -389,3 +387,4 @@ background-color: #302e2c;
   height: 500px;
   width: 100%;
 }
+
