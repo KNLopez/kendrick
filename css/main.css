@@ -123,7 +123,7 @@ section.search-banner {
 }
 h1.big-heading{
 float: right;
-margin-right: 67%;
+margin-right: 54%;
 font-size: 54px;
 color: #212121;
 
@@ -160,13 +160,13 @@ margin-right: 200px;
 .company-description {
   margin-top : 359px;
 }
-div.text-module.align-left.kendiff p {
+div.text-module.kendiff p {
 	color : #adadad; 
 }
-div.text-module.align-left.kendiff{
-  margin-left : 50%;
-  font-size : 21px;
-  padding-right : 167px;
+div.text-module.kendiff{
+  margin-left: 50%;
+  font-size: 21px;
+  padding-right: 167px;
 
 }
 div.text-module.experts {
