@@ -137,6 +137,21 @@ input.search-bar{
   border-radius: 3px;
   letter-spacing: .06em;
 }
+
+/* FEATURED LISTINGS */
+.featured{
+  padding-top: 5em;
+}
+.featured .text-module{
+  max-width: 60%;
+  min-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 4%;
+}
+.featured .text-module h1{
+  display: inline;
+}
 /* GRID and LAYOUT */
 .text-module{
   padding: 8%;
@@ -151,6 +166,12 @@ input.search-bar{
 }
 .grid-2{
   grid-template-columns: repeat(2,1fr);
+}
+.grid-3{
+  grid-template-columns: repeat(3,1fr);
+}
+.gutter-5{
+  grid-row-gap:.5em;
 }
 
 .kendiff{
