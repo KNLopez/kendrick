@@ -8,7 +8,7 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 :root {
-  --main-color:#50E3C2; 
+  --main-color:#2980b9; 
   --light-grey: #ccc;
   --grey-text: #515151;
   --subtitle-text: #9B9DA0;
@@ -109,13 +109,15 @@ letter-spacing: .07em;
 
 nav.selector{
   margin: 0 auto;
-  max-width: 380px;
+  max-width: 290px;
   text-align: center;
   background: rgba(0,0,0,0.4);
   border-radius: 3px;
 }
 nav.selector ul{display: block;margin: 0 auto}
-
+nav.selector li{
+  padding: 0;
+}
 nav.selector li a{
   color: #fff;
   border: 0;
@@ -339,6 +341,9 @@ footer nav ul li a:hover{
 .grid-3{
   grid-template-columns: repeat(3,1fr);
 }
+.grid-4{
+  grid-template-columns: repeat(4,1fr);
+}
 .grid-5{
   grid-template-columns: repeat(5,1fr);
 }
@@ -350,9 +355,11 @@ footer nav ul li a:hover{
 }
 .gutter-10{
   grid-column-gap: 4em;
+  grid-row-gap: 4em;
 }
 .gutter-5{
   grid-column-gap: 2em;
+  grid-row-gap: 2em;
 }
 
 .kendiff{
@@ -396,11 +403,60 @@ section{
   padding: 3em 0;
 }
 
+/* TEAM */
+.team-members h2{
+  margin: .7em 0;
+  font-size: 1.2em;
+  position: relative;
+}
+.team-header-text h1{
+  position: relative;
+}
+.team-header-text h1:after{
+  content: ' ';
+  position: absolute;
+  height: 2px;
+  width: 30%;
+  bottom: -10px;
+  background: var(--main-color);
+  left: 35%;
+}
+.team-members address a{
+  line-height: 1.6em;
+}
+.team-members .property-card{
+  border-radius: 0;
+  min-width: 200px;
+}
+.team-members address{
+  margin-bottom: 20px;
+}
 /* UTILITIES */
+.phone{
+ color: var(--main-color);
+ text-decoration: none;
+}
+.email{
+  text-decoration: none;
+  color: var(--dark-grey-text);
+}
+.short-text{
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2%;
+}
+.short-text p{
+  line-height: 1.6em;
+}
 .card{
   background: white;
   position: relative;
 }
+.border{
+  border: 1px solid #efefef;
+}
+
 img{
   width: 100%;
 }
