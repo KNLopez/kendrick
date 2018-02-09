@@ -14,4 +14,13 @@
     slides[slideIndex-1].style.display = "flex";
     setTimeout(showSlides, 3000)
   }
+  document.querySelector('.search-bar').onkeyup = function(){
+    if(this.value != ''){
+      document.querySelector('.search-results').style .display = 'block';
+    } else{
+      document.querySelector('.search-results').style .display = 'none';
+    }
+    
+  }
+
 })();

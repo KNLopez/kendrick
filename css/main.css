@@ -131,7 +131,7 @@ nav.selector li a:hover{
   border: 0;
 }
 input.search-bar{
-  width: 70%;
+  width: 100%;
   padding: 1.3em 3.4em;
   margin-top: -5px;
   background: #fff url('../images/search.svg') no-repeat scroll 1.2em center;
@@ -139,6 +139,28 @@ input.search-bar{
   border: 0;
   border-radius: 3px;
   letter-spacing: .06em;
+}
+.search-results{
+  position:absolute;
+  display: none;
+  width: 100%;
+  background: white;
+  max-height: 200px;
+  margin: auto;
+  margin-top: -2px;
+  overflow-y: scroll;
+  color: var(--grey-text);
+  padding: 1em 3em;
+  text-align: left;
+  font-size: 1.2em;
+}
+.search-results-item{
+  padding: .4em 0;
+}
+.search-container{
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
 }
 /* PROPERTY CARD */
 .property-card{
