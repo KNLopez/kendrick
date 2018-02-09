@@ -14,6 +14,7 @@
   <link rel="icon" type="image/png" href="https://example.com/favicon.png">
   <link rel="preload" href="css/normalize.css" as="style" onload="this.rel='stylesheet'">
   <link rel="preload" href="css/main.css?v=1.0" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="css/slider.css" as="style" onload="this.rel='stylesheet'">
   <script>
     /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
     !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
@@ -74,7 +75,7 @@
           <div class="label"> Vacaville, California</div>
         </div>
       </div>
-     
+
       <div class="right-navigation">
         <div class="main-menu">
           <ul>
@@ -86,7 +87,7 @@
 
           </ul>
         </div>
-      
+
       <div class="saved-searches">
           <ul>
             <li class="saved-homes"><a href="#"> Saved Homes </a></li>
@@ -132,7 +133,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
             <a class="btn btn-green">About</a>
           </div>
-          
+
           <div class="text-module experts">
             <h1>Partner with experts</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
@@ -215,7 +216,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- End of Property cards -->
         <div class="text-center m-t-s">
           <button class="btn btn-green searchprop">Search Properties</button>
@@ -226,13 +227,27 @@
       <div class="container">
         <h1>What People Say About Kendrick</h1>
         <div class="testinmonials__slider">
-          <div class="testimonial">
-            <class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
+          <div class="testimonial fade">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
             <div class="profile">
                 <img src="/images/man.png">
                 <p class="name">Ronald Reyes</p>
             </div>
           </div>
+          <div class="testimonial fade">
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
+              <div class="profile">
+                  <img src="/images/man.png">
+                  <p class="name">Ronald Reyes</p>
+              </div>
+            </div>
+            <div class="testimonial fade">
+                <p class="description">Another Testimonial</p>
+                <div class="profile">
+                    <img src="/images/man.png">
+                    <p class="name">Ronald Reyes</p>
+                </div>
+              </div>
         </div>
       </div>
     </section>
@@ -272,30 +287,50 @@
         </div>
       </div>
     </section>
-
     <!-- Start Footer -->
-    <!-- Start Footer -->
-    <section class="footer" style="background-color: #424646; height: 50%; width: 100%;">
-    <nav>
-      <div class="left-nav">
-        <div class="user"><img src="images/box.jpeg" style="height: 225px;margin-left: 160px;margin-top: 80px;"></div>
-        <div id="footer" style= "margin-left: 148px;">
-        <ul>
-        <li class="kendrickrealty"> Kendrick Realty</li>
-        <li>91 Gregory Lane #12</li>
-        <li> Pleasant Hill, CA 94523</li>
-           </ul>
-        </div>
-     
+  <footer>
+    <div class="container grid footer-5 gutter-5 full-height p-m">
+      <div class="company-info">
+        <img src="/images/2nd.jpg">
+        <p> Kendrick Realty</p>
+        <p class="address">
+            91 Gregory Lane #12
+            Pleasant Hill, CA 94523
+            925-226-8218
+        </p>
       </div>
-     
-
-    </nav>
-  </section>
+      <div class="sub-menu">
+        <p class="sub-menu__title">
+          COMPANY
+        </p>
+        <nav>
+          <ul>
+            <li><a>About</a></li>
+            <li><a>Team</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Contact us</a></li>
+            <li><a>How it works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sub-menu">
+        <p class="sub-menu__title">
+          COMPANY
+        </p>
+        <nav>
+          <ul>
+            <li><a>New Properties</a></li>
+            <li><a>Featured Listings</a></li>
+            <li><a>Neighborhoods</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 
     <!-- End Footer -->
     <!-- End Footer -->
-    
+
   </main>
   <!-- end of main -->
   <script src="js/scripts.js"></script>
