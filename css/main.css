@@ -11,6 +11,8 @@ This theme, like WordPress, is licensed under the GPL.
   --main-color:#50E3C2; 
   --light-grey: #ccc;
   --grey-text: #515151;
+  --subtitle-text: #9B9DA0;
+  --dark-grey-text:#4A4A4A;
 }
 * {
   font-family: 'Titillium Web', sans-serif;
@@ -137,6 +139,56 @@ input.search-bar{
   border-radius: 3px;
   letter-spacing: .06em;
 }
+/* PROPERTY CARD */
+.property-card{
+  min-width: 280px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.property-card__image{
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+  position: absolute;
+}
+.property-card__text{
+  margin-top: 75%;
+  padding: 5%;
+}
+.property-card__text h3{
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+.property-card__property-subtitle{
+  color: var(--subtitle-text);
+}
+.property-card__text p{
+  margin: 0;
+}
+.property-card__text__details{
+  margin-top: 20px;
+}
+.property-card__text__details .price{
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.property_details{
+  color: var(--grey-text);
+  margin-bottom: .3em;
+}
+.property_details img{
+  height: 13px;
+  width: 13px;
+}
+.property_details .icon-text{
+  margin-right: 20px;
+}
 
 /* FEATURED LISTINGS */
 .featured{
@@ -151,6 +203,11 @@ input.search-bar{
 }
 .featured .text-module h1{
   display: inline;
+}
+
+/* Neighborhoods */
+section.neighborhoods{
+  background: #F7F7F7;
 }
 /* GRID and LAYOUT */
 .text-module{
@@ -171,7 +228,7 @@ input.search-bar{
   grid-template-columns: repeat(3,1fr);
 }
 .gutter-5{
-  grid-row-gap:.5em;
+  grid-column-gap: 2em;
 }
 
 .kendiff{
@@ -205,7 +262,7 @@ input.search-bar{
   line-height: 160%;
 }
 .text-module.experts{
-  padding-right: 10%;
+  padding: 10% 10% 0 0;
 }
 .experts img{
   z-index: 1;
@@ -214,15 +271,45 @@ input.search-bar{
 section{
   padding: 3em 0;
 }
+
 /* UTILITIES */
+.card{
+  background: white;
+  position: relative;
+}
+.neighboorhood-card__image{
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+.neighborhood-card__text{
+  margin-top: 45%;
+  padding: 5%;
+}
+.neighborhood-card__text h3{
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 5px;
+}
+.neighborhood-card__text p{
+  margin: 0;
+  color: var(--subtitle-text);
+}
 img{
   width: 100%;
+}
+.m-t-s{
+  margin-top: 2.5em;
 }
 .m-t-m{
   margin-top: 5em;
 }
 .m-t-l{
   margin-top: 10em;
+}
+.text-center{
+  text-align:center;
 }
 .text-module a.btn{
   display: inline-block;
