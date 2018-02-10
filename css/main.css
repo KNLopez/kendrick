@@ -115,6 +115,9 @@ font-size: 3em;
 letter-spacing: .07em;
 }
 
+.search-banner input.search-bar{
+  margin:0;
+}
 nav.selector{
   margin: 0 auto;
   max-width: 290px;
@@ -278,7 +281,19 @@ input.search-bar{
   font-size: 1.2em;
   max-width: 70%;
   line-height: 1.7em;
+  position: relative;
 }
+.testimonial p.description:before{
+  content: '\201C';
+  
+  font-size: 60px;
+  color: var(--main-color);
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  left: -30px;
+  top: -10px;
+}
+
 .testimonial img{
   max-width: 134px;
   border-radius: 100%;
@@ -286,6 +301,20 @@ input.search-bar{
 /* Neighborhoods */
 section.neighborhoods{
   background: #F7F7F7;
+  position: relative;
+}
+.neighborhood-heading{
+  padding-left: 5%;
+  position: relative;
+}
+.neighborhood-heading:before{
+  content: ' ';
+  height: 215px;
+  width: 4px;
+  background: var(--main-color);
+  position: absolute;
+  left:0;
+  top: -150px;
 }
 .neighboorhood-card__image{
   width: 100%;
