@@ -662,3 +662,124 @@ line-height: 1.5em;
   line-height: 1.7em;
   color: var(--grey-text);
 }
+/* SEARCH */
+.search-page{
+  height: calc(100vh - 70px);
+}
+.search-bar-bordered{
+  overflow: hidden;
+  border-bottom: .5px solid #efefef;
+}
+.search-bar-bordered input.search-bar{
+  margin: 0;
+  outline: 0;
+}
+.search-bar-bordered .search-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2px;
+}
+.save-search{
+  margin-right: 20px;
+  color: var(--main-color);
+}
+.search-bar-filtered-places{
+  padding: .2em 3.4em 1em;
+}
+.search-bar-filtered-places a{
+  background: var(--main-color);
+  padding: .2em .7em;
+  color: white;
+  display: flex;
+  max-width: 100px;
+  align-items: center;
+}
+.search-page .filters{
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 49%;
+  background: white;
+  z-index: 4;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.1);
+  padding-bottom: 1em;
+  
+}
+.search-bar-filtered-places a span.text{
+  font-size: 14px;
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-bar-filtered-places a span{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.property-results{
+  padding-top: 200px;
+  background: #fff;
+}
+.property-results .property-card{
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.11);
+}
+.search-function{
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  
+}
+.property-card a{
+  text-decoration: none;
+}
+.search-page .search-filters{
+  display: flex;
+  padding: 10px 20px;
+}
+.search-filters-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-page .sort{
+  
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F7F7F7;
+}
+.search-page .sort select{
+  background: white url('/images/caret.png');
+  background-repeat: no-repeat;
+  background-position: right 10px top 13px;
+}
+select{
+  flex: 1;
+  background: url('/images/caret.png');
+  background-repeat: no-repeat;
+  background-position: right 10px top 13px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border:0;
+  outline:0;
+  padding: 9px 10px;
+  width: 100%;
+  margin: 0 5px;
+  max-width: 150px;
+  color: #9B9DA0;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: .1em;
+  font-weight: 100;
+}
+.results-count{
+  color: #ccc;
+}
+.search-filters-view img{
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
