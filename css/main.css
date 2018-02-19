@@ -1054,7 +1054,7 @@ select{
   margin-bottom: 100px;
 }
 .acta1{
-  background: #ccc url('images/contact.jpg');
+  background: #ccc url('../images/contact.jpg');
   background-position: center right;
   background-size: cover;
 }
