@@ -176,6 +176,7 @@ nav.selector li a{
   border: 0;
   padding: .4em 1.4em;
   border-radius: 3px;
+  margin: .1em;
 }
 nav.selector li a.active{
   background: var(--main-color);
@@ -613,6 +614,9 @@ img{
 .white-bg{
   background: #fff;
 }
+.grey-bg{
+  background: #F7F7F7;
+}
 .big-heading{
   font-size: 350%;
   font-weight: 800;
@@ -625,7 +629,6 @@ img{
 }
 .call-to-action{
   text-align:center;
-  background: #F7F7F7;
 }
 /* BUTTON STYLES */
 .btn{
