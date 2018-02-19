@@ -15,12 +15,12 @@
     setTimeout(showSlides, 3000)
   }
   document.querySelector('.search-bar').onkeyup = function(){
-    if(this.value != ''){
-      document.querySelector('.search-results').style .display = 'block';
-    } else{
-      document.querySelector('.search-results').style .display = 'none';
-    }
-    
+    this.value != '' ? document.querySelector('.search-results').style .display = 'block' : document.querySelector('.search-results').style .display = 'none'; 
   }
+  document.querySelector("#nav-toggle")
+  .addEventListener("click", function () {
+    this.classList.toggle("active");
+    document.querySelector('.mobile-nav').classList.toggle("visible");
+  });
 
 })();

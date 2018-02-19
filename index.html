@@ -51,7 +51,7 @@
   <meta name="twitter:image" content="images/home.jpg">
 
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:200,400,600" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
   <script>
@@ -71,27 +71,40 @@
     <nav>
       <div class="left-navigation">
         <div class="logo"><a href="/kendrick"><img src="images/kendrick-logo.png"></a></div>
-        <div class="location-selector">
-          <div class="label"> Vacaville, California</div>
-        </div>
+        <ul>
+          <li class="drop-down">
+              Buy
+            <ul >
+              <li><a>Search Homes</a></li>
+              <li><a>Homebuying Process</a></li>
+              <li><a>Mortgage and Payment Calculator</a></li>
+            </ul>
+          </li>
+          <li class="drop-down">
+            Sell
+            <ul >
+              <li><a>Value Estimator</a></li>
+              <li><a>Selling Your Home</a></li>
+            </ul>
+          </li>
+          <li class="contact"><a href="/team">Find an Agent</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+        </ul>
       </div>
-
+      <a id="nav-toggle" ><span></span></a>
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Careers</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+          <li class="about"><a href="team.html">Team</a></li>
+          <li><a href="#" class="btn btn-green btn-outline">Sign in </a></li>
+        </ul>
+      </div>
       <div class="right-navigation">
-        <div class="main-menu">
-          <ul>
-            <li><a href="#">How it Works</a></li>
-            <li><a href="#">Careers</a></li>
-
-            <li class="contact"><a href="#">Contact</a></li>
-            <li class="about"><a href="team.html">Team</a></li>
-
-          </ul>
-        </div>
-
       <div class="saved-searches">
           <ul>
-            <li class="saved-homes"><a href="#"> Saved Homes </a></li>
-            <li class="saved-searches"><a href="#"> Saved Searches</a></li>
+            <li class="saved-homes"><a href="#"> My Saved Homes </a></li>
           </ul>
       </div>
       <div class="signin">
@@ -146,7 +159,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
             <a class="btn btn-green">About</a>
           </div>
-
+          <div class="mobile-kendiff-image">
+            <img class="mobile-kendiff-image" src="images/key.jpg"/>
+            <img class="mobile-experts-image" src="images/3rd.jpg"/>
+          </div>
           <div class="text-module experts">
             <h1>Partner with experts</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
@@ -158,6 +174,34 @@
         </div>
       </div>
     </section>
+    <section class="testimonials">
+        <div class="container">
+          <h1>What People Say About Kendrick</h1>
+          <div class="testinmonials__slider">
+            <div class="testimonial fade">
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
+              <div class="profile">
+                  <img src="images/man.png">
+                  <p class="name">Ronald Reyes</p>
+              </div>
+            </div>
+            <div class="testimonial fade">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
+                <div class="profile">
+                    <img src="images/man.png">
+                    <p class="name">Ronald Reyes</p>
+                </div>
+              </div>
+              <div class="testimonial fade">
+                  <p class="description">Another Testimonial</p>
+                  <div class="profile">
+                      <img src="images/man.png">
+                      <p class="name">Ronald Reyes</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </section>
     <!-- end of company description -->
     <section class="call-to-action m-t-m">
       <div class="container">
@@ -236,34 +280,7 @@
         </div>
       </div>
     </section>
-    <section class="testimonials">
-      <div class="container">
-        <h1>What People Say About Kendrick</h1>
-        <div class="testinmonials__slider">
-          <div class="testimonial fade">
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
-            <div class="profile">
-                <img src="images/man.png">
-                <p class="name">Ronald Reyes</p>
-            </div>
-          </div>
-          <div class="testimonial fade">
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
-              <div class="profile">
-                  <img src="images/man.png">
-                  <p class="name">Ronald Reyes</p>
-              </div>
-            </div>
-            <div class="testimonial fade">
-                <p class="description">Another Testimonial</p>
-                <div class="profile">
-                    <img src="images/man.png">
-                    <p class="name">Ronald Reyes</p>
-                </div>
-              </div>
-        </div>
-      </div>
-    </section>
+    
     <!-- end of featured -->
     <section class="neighborhoods">
       <div class="container">
