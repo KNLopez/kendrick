@@ -600,6 +600,9 @@ img{
 .p-m{
   padding: 4%;
 }
+.p-b-m{
+  padding-bottom: 10%;
+}
 .p-s{
   padding: 2%;
 }
@@ -994,8 +997,34 @@ select{
     margin-top: 5.5em;
   }
   .text-module.kendiff{
-    
   }
+}
+
+.contact-form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.11);
+  margin-top: -100px;
+}
+.contact-form .gutter-5{
+  grid-row-gap: 0;
+}
+.contact-form input{
+  font-size: .8em;
+  padding: 15px 15px;
+  outline: 0;
+}
+.contact-form input:hover,.contact-form input:focus{
+  border-color: #4A4A4A;
+}
+.contact-form textarea{
+  outline: 0;
+  padding: 15px 15px;
+  font-size: .8em;
+  height: 6em;
+  resize: none;
+  margin-bottom: 2em;
 }
 
 @media screen and (min-width: 720px){
