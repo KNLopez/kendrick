@@ -10,7 +10,7 @@ function initMap() {
     position: myLatLng,
     map: map,
     title: 'Hello World!',
-    icon: '/images/marker.png'
+    icon: '../images/marker.png'
   });
 }
 var style = [
