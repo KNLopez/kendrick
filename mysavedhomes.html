@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Kendrick Realty Inc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Kendrick Realty Inc. You local real estate agents">
+  <meta name="author" content="kendrickrealtyinc">
+  <!-- Standard favicon -->
+  <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
+  <!-- Recommended favicon format -->
+  <link rel="icon" type="image/png" href="https://example.com/favicon.png">
+  <link rel="preload" href="css/normalize.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="css/main.css?v=1.0" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="css/slider.css" as="style" onload="this.rel='stylesheet'">
+  <script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+  </script>
+  <!-- Apple Touch Icon (at least 200x200px) -->
+  <link rel="apple-touch-icon" href="/custom-icon.png">
+
+  <!-- To run web application in full-screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
+  <!-- Has no effect unless you have the previous meta tag -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.kendrickrealtyinc.com">
+  <meta property="og:title" content="KendrickRealtyInc:Homepage">
+  <meta property="og:image" content="images/home.jpg">
+  <meta property="og:description" content="A Northern California Real Estate company dedicated to changing the real estate industry for clients and Realtors.">
+  <meta property="og:site_name" content="Kendrick Realty, Inc">
+  <meta property="og:locale" content="en_US">
+  <!-- Next tags are optional but recommended -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@kendricrealtyinc">
+  <meta name="twitter:creator" content="Kendric Realty,Inc">
+  <meta name="twitter:url" content="https://www.kendrickrealtyinc.com">
+  <meta name="twitter:title" content="Kendrick Realty, Inc">
+  <meta name="twitter:description" content="A Northern California Real Estate company dedicated to changing the real estate industry for clients and Realtors.">
+  <meta name="twitter:image" content="images/home.jpg">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:200,400,600" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-112684174-1');
+  </script>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="left-navigation">
+        <div class="logo"><a href="/kendrick"><img src="images/kendrick-logo.png"></a></div>
+        <ul>
+            <li class="drop-down">
+                Buy
+              <ul >
+                <li><a href="search.html">Search Homes</a></li>
+                <li><a href="homebuying.html">Homebuying Process</a></li>
+                <li><a href="mortgage.html">Mortgage and Payment Calculator</a></li>
+              </ul>
+            </li>
+            <li class="drop-down">
+              Sell
+              <ul >
+                <li><a href="valueestimate.html">Value Estimator</a></li>
+                <li><a href="sell.html">Selling Your Home</a></li>
+              </ul>
+            </li>
+            <li class="contact"><a href="team.html">Find an Agent</a></li>
+            <li class="drop-down">
+              Contact
+              <ul >
+                  <li><a href="contact.html"> Contact Us</a></li>
+                  <li><a href="contact-agent.html">Contact as an Agent</a></li>
+                </ul>
+            </li>
+          </ul>
+      </div>
+      <a id="nav-toggle" ><span></span></a>
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Careers</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+          <li class="about"><a href="team.html">Team</a></li>
+          <li><a href="#" class="btn btn-green btn-outline">Sign in </a></li>
+        </ul>
+      </div>
+      <div class="right-navigation">
+      <div class="saved-searches">
+          <ul>
+            <li class="saved-homes"><a href="#"> My Saved Homes </a></li>
+          </ul>
+      </div>
+      <div class="signin">
+          <a href="#" class="btn btn-green btn-outline">Sign in </a>
+      </div>
+    </nav>
+  </header>
+  <!-- end of header -->
+  <!-- main -->
+  <main>
+    <!-- company description -->
+    <section class="company-description m-t-s">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="kendiff-image">
+              <img src="images/key.jpg">
+              <div class="fixed-text">Experts</div>
+          </div>
+          <div class="text-module kendiff">
+            <h1 class="big-heading">The <br>Kendrick <br>Difference</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
+            <a class="btn btn-green">About</a>
+          </div>
+          <div class="mobile-kendiff-image">
+            <img class="mobile-kendiff-image" src="images/key.jpg"/>
+            <img class="mobile-experts-image" src="images/3rd.jpg"/>
+          </div>
+          <div class="text-module experts">
+            <h1>Partner with experts</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
+            <a class="btn btn-green">Find a Partner Agent</a>
+          </div>
+          <div class="experts">
+            <img src="images/3rd.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="call-to-action ">
+      <div class="container">
+        <div class="updates">
+            <h1>Get the latest updates for new listings</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis.</p>
+            <button class="btn btn-black Subs">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of featured -->
+
+  <footer>
+    <div class="container grid footer-5 gutter-5 full-height p-m">
+      <div class="company-info">
+        <img src="images/2nd.jpg">
+        <p> Kendrick Realty</p>
+        <p class="address">
+            91 Gregory Lane #12
+            Pleasant Hill, CA 94523
+            925-226-8218
+        </p>
+      </div>
+      <div class="sub-menu">
+        <p class="sub-menu__title">
+          COMPANY
+        </p>
+        <nav>
+          <ul>
+            <li><a>About</a></li>
+            <li><a>Team</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Contact us</a></li>
+            <li><a>How it works</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sub-menu">
+        <p class="sub-menu__title">
+          COMPANY
+        </p>
+        <nav>
+          <ul>
+            <li><a>New Properties</a></li>
+            <li><a>Featured Listings</a></li>
+            <li><a>Neighborhoods</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+    <!-- End Footer -->
+    <!-- End Footer -->
+
+  </main>
+  <!-- end of main -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>

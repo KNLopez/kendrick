@@ -51,7 +51,7 @@
   <meta name="twitter:image" content="images/home.jpg">
 
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Titillium+Web:200,400,600" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
   <script>
@@ -67,38 +67,55 @@
 
 <body>
   <!-- Header -->
-  <header>
-    <nav>
+  <nav>
       <div class="left-navigation">
         <div class="logo"><a href="/kendrick"><img src="images/kendrick-logo.png"></a></div>
-        <div class="location-selector">
-          <div class="label"> Vacaville, California</div>
-        </div>
+        <ul>
+          <li class="drop-down">
+              Buy
+            <ul >
+              <li><a href="search.html">Search Homes</a></li>
+              <li><a href="homebuying.html">Homebuying Process</a></li>
+              <li><a href="mortgage.html">Mortgage and Payment Calculator</a></li>
+            </ul>
+          </li>
+          <li class="drop-down">
+            Sell
+            <ul >
+              <li><a href="valueestimate.html">Value Estimator</a></li>
+              <li><a href="sell.html">Selling Your Home</a></li>
+            </ul>
+          </li>
+          <li class="contact"><a href="team.html">Find an Agent</a></li>
+          <li class="drop-down">
+            Contact
+            <ul >
+                <li><a href="contact.html"> Contact Us</a></li>
+                <li><a href="contact-agent.html">Contact as an Agent</a></li>
+              </ul>
+          </li>
+        </ul>
       </div>
-
+      <a id="nav-toggle" ><span></span></a>
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Careers</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+          <li class="about"><a href="team.html">Team</a></li>
+          <li><a href="#" class="btn btn-green btn-outline">Sign in </a></li>
+        </ul>
+      </div>
       <div class="right-navigation">
-        <div class="main-menu">
-          <ul>
-            <li><a href="#">How it Works</a></li>
-            <li><a href="#">Careers</a></li>
-
-            <li class="contact"><a href="#">Contact</a></li>
-            <li class="team"><a href="team.html">Team</a></li>
-
-          </ul>
-        </div>
-
       <div class="saved-searches">
           <ul>
-            <li class="saved-homes"><a href="#"> Saved Homes </a></li>
-            <li class="saved-searches"><a href="#"> Saved Searches</a></li>
+            <li class="saved-homes"><a href="#"> My Saved Homes </a></li>
           </ul>
       </div>
       <div class="signin">
           <a href="#" class="btn btn-green btn-outline">Sign in </a>
       </div>
     </nav>
-  </header>
   <!-- end of header -->
   <!-- main -->
   <main>
@@ -125,6 +142,24 @@
       </div>
     </div>
   </section>
+  <section class="agent-call-to-action acta1">
+    <div class="right-call-to-action white-bg p-s ">
+      <h2>Need an expert?</h2>
+      <p>Find an expert who can guide you in the real estate world. Our agents are experts you can trust with all you buying, sellng and renting needs.</p>
+      <a class="">Contact an Agent</a>
+    </div>
+    <div class="clearfix"></div>
+  </section>
+  <div class="map grid grid-2">
+      <div class="text-module text-center">
+        <h2>Kendrick Realty</h2>
+        <p>
+            91 Gregory Lane #12 Pleasant Hill, <br>CA 94523 925-226-8218
+            <hr>
+        </p>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.2193076516483!2d-122.06431768467733!3d37.948664979728086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085614812177b41%3A0x7ee55bf47b48319!2s91+Gregory+Ln+%2312%2C+Pleasant+Hill%2C+CA+94523%2C+USA!5e0!3m2!1sen!2sph!4v1519043019044" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
     <!-- Start Footer -->
   <footer>
     <div class="container grid footer-5 gutter-5 full-height p-m">

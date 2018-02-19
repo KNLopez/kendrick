@@ -555,6 +555,9 @@ section{
   margin-bottom: 20px;
 }
 /* UTILITIES */
+.clearfix{
+  clear: both;
+}
 .phone{
  color: var(--main-color);
  text-decoration: none;
@@ -1025,6 +1028,32 @@ select{
   height: 6em;
   resize: none;
   margin-bottom: 2em;
+}
+
+.agent-call-to-action{
+  width: 100%;
+}
+.right-call-to-action{
+  float:right;
+  max-width: 400px;
+  margin:0 20px;
+}
+.right-call-to-action h2{
+  color: var(--grey-text);
+}
+.right-call-to-action a{
+  color: var(--main-color);
+}
+.right-call-to-action p{
+  color: var(--grey-text);
+  line-height: 1.4em;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+.acta1{
+  background: #ccc url('/images/contact.jpg');
+  background-position: center right;
+  background-size: cover;
 }
 
 @media screen and (min-width: 720px){
