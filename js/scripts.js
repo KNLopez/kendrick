@@ -25,5 +25,25 @@
     this.classList.toggle("active");
     document.querySelector('.mobile-nav').classList.toggle("visible");
   });
+  // MODAL
+  var sign_in_buttons = document.querySelectorAll('.btn-sign-in')
+  if(sign_in_buttons) sign_in_buttons.forEach(function(button){
+    button.addEventListener('click',showModal);
+  });
+  var backdrops = document.querySelectorAll('.modal .backdrop')
+  if(backdrops) backdrops.forEach(function(backdrop){
+    backdrop.addEventListener('click',hideModal);
+  });
+  function hideModal(){
+    
+    console.log(event);
+    if (event.target == this) {
+      document.getElementById('modal').style.display = "none";
+    }
+    
+  }
+  function showModal(){
+    document.getElementById('modal').style.display = "block";
+  }
 
 })();
