@@ -1029,13 +1029,14 @@ select{
   justify-content: center;
   align-items: center;
   height: 100%;
-  background: rgba(0,0,0,.3);
+  background: rgba(255,255,255,.5);
 }
 .modal .opt-in-form{
   width: 100%;
   max-width: 350px;
-  background: white;
+  background:#efefef;
   padding: 40px;
+  
 }
 .modal .opt-in-form p{
   color: #515151;
