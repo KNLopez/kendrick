@@ -144,14 +144,22 @@ nav ul li a:hover{
   display: flex;
   justify-content: center;
   align-items:center;
-  background: url('../images/2nd.jpg');
+  background: url('../images/home1.jpeg');
   background-size: cover;
   position: relative;
+}
+.search-banner-overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.31);
+  position: absolute;
+  z-index: 0;
 }
 .search-banner__content{
   width: 60%;
   text-align: center;
   color: white;
+  z-index: 1;
 }
 .search-banner__content h1{
 font-size: 3em;
