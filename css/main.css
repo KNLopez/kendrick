@@ -990,6 +990,12 @@ input:focus{
   overflow: hidden;
   position: relative;
 }
+.value-estimate h1{
+  margin: 0;
+}
+.value-estimate p{
+  margin: 0;
+}
 .value-estimate-text .contact-form{
   max-width: 60%;
   z-index: 9999;
@@ -1081,6 +1087,9 @@ img{
 }
 .m-t-l{
   margin-top: 10em;
+}
+.p-l{
+  padding: 8%;
 }
 .p-m{
   padding: 4%;
@@ -1191,4 +1200,5 @@ img{
     width: 100%;
     max-width: 100%;
   }
+  
 }
