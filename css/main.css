@@ -10,10 +10,13 @@ This theme, like WordPress, is licensed under the GPL.
 :root {
   --hover-color: #358fca;
   --main-color:#2980b9;
+  --dark-blue: #135681;
   --light-grey: #ccc;
   --grey-text: #515151;
   --subtitle-text: #9B9DA0;
   --dark-grey-text:#4A4A4A;
+  --main-font: 'Merriweather', serif;
+  --sub-font: 'Titillium Web', sans-serif;
 }
 * {
   font-family: 'Titillium Web', sans-serif;
@@ -480,6 +483,9 @@ footer nav ul li a:hover{
 .grid-6{
   grid-template-columns: repeat(6,1fr);
 }
+.gutter-20{
+  grid-column-gap: 8em;
+}
 .gutter-10{
   grid-column-gap: 4em;
   grid-row-gap: 4em;
@@ -709,7 +715,7 @@ line-height: 1.5em;
   position: fixed;
   top: 70px;
   left: 0;
-  width: 49%;
+  width: 50%;
   background: white;
   z-index: 4;
   box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.1);
@@ -978,17 +984,56 @@ input:focus{
   background-position: center right;
   background-size: cover;
 }
-
-.value-estimate{
-  background: url('../images/homebuying-header.jpg');
+.banner-teaser{
   background-size: cover;
   background-position: center center;
-  min-height: 60vh;
+  min-height: 80vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   position: relative;
+}
+.homebuying a.btn.btn-outline{
+  position: relative;
+  padding: .6em 1em;
+  cursor: pointer;
+}
+.homebuying a:after{
+  content: " ";
+  height: 40vh;
+  width: 3px;
+  position: absolute;
+  top: 2.4em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--main-color);
+}
+.homebuying{
+  border-bottom: 30px solid black;
+  background: url('../images/homebuying-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 105%;
+  background-size: contain;
+}
+.homebuying h1{
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  color: var(--main-color);
+  /* The Home Buying Jour: */
+font-family: Merriweather-Regular;
+font-size: 44px;
+color: #135681;
+letter-spacing: 0;
+}
+.homebuying p{
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 22px;
+}
+.value-estimate{
+  background: url('../images/homebuying-header.jpg');
 }
 .value-estimate h1{
   margin: 0;
@@ -1008,7 +1053,11 @@ input:focus{
   line-height: 1.5em;
   letter-spacing: 0.1em;
 }
-
+.process-image{
+  min-width: 200px;
+  align-self: center;
+  justify-self: flex-end;
+}
 .card{
   background: white;
   padding: 15px;
@@ -1023,7 +1072,27 @@ input:focus{
   max-width: 70px;
   max-height: 45px;
 }
-
+.process h2{
+  color: var(--hover-color);
+}
+.process p.step{
+  color: var(--subtitle-text);
+  font-weight: 800;
+  font-family: var(--main-font);
+}
+.process .process-image{
+  max-width: 350px;
+  margin: 0 auto;
+}
+.process ul{
+  margin: 0;
+}
+.process h4{
+  margin: 1.5em 0 .5em 0 ;
+}
+.process ul li{
+  margin: .2em 0;
+}
 .white-text{color:white;}
 .white-text p{color:white;}
 
@@ -1073,6 +1142,7 @@ input:focus{
 img{
   width: 100%;
 }
+.p-0{padding: 0}
 .p-t{
   padding: 3em 0;
 }
@@ -1153,6 +1223,9 @@ img{
   color:#fff;
   background: var(--main-color);
 }
+.btn.btn-green.btn-outline{
+  color: var(--main-color);
+}
 .btn-green:hover{
   color:#fff;
   background: var(--hover-color);
@@ -1168,7 +1241,6 @@ img{
   border-radius: 0;
 }
 .btn.btn-green.btn-outline{
-  color: #000;
   border: 2px solid var(--main-color);
   background: transparent;
 }

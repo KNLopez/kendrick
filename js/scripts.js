@@ -15,7 +15,6 @@
       slides[slideIndex-1].style.display = "flex";
       setTimeout(showSlides, 3000)
     }else{
-      
     }
   }
   var searchbar = document.querySelector('.search-bar');
@@ -35,15 +34,26 @@
     backdrop.addEventListener('click',hideModal);
   });
   function hideModal(){
-    
     console.log(event);
     if (event.target == this) {
       document.getElementById('modal').style.display = "none";
     }
-    
   }
   function showModal(){
     document.getElementById('modal').style.display = "block";
   }
+  //scroll
+ 
+  function scrollTo(element) {
+    window.scroll({
+      behavior: 'smooth',
+      left: 0,
+      top: element.offsetTop
+    });
+  }
+
+  document.getElementById("view").addEventListener('click', () => {
+    scrollTo(document.getElementById("journey"));
+  });
 
 })();
