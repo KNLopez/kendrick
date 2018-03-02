@@ -996,6 +996,33 @@ input:focus{
   overflow: hidden;
   position: relative;
 }
+.homeselling h1{
+  margin-right: 10%;
+  font-weight: 400;
+  color: var(--main-color);
+  max-width: 500px;
+  line-height: 1.6em;
+}
+.homeselling h1 span{
+  font-family: var(--main-font);
+  font-size: 1.4em;
+}
+.homeselling img{
+  position: absolute;
+  width: 23%;
+  left: 15%;
+  bottom: -2%;
+  animation-name: house;
+  animation-duration: 2s;
+}
+.homeselling{
+    align-items: flex-end;
+  background: url('../images/sell-bg.svg');
+  background-repeat: no-repeat;
+  background-position: 0 105%;
+  background-size: contain;
+  border-bottom: 30px solid black;
+}
 .homebuying a.btn.btn-outline{
   position: relative;
   padding: .6em 1em;
@@ -1185,6 +1212,9 @@ img{
 .text-center{
   text-align:center;
 }
+.text-right{
+  text-align: right;
+}
 .text-justify{
   text-align: justify;
 }
@@ -1306,5 +1336,10 @@ img{
   .p-m{
     padding: 50px 20px;
   }
-  
+}
+
+/* //animation */
+@keyframes house {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }

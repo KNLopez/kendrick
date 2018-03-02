@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -17,9 +18,9 @@
   <link rel="preload" href="css/slider.css" as="style" onload="this.rel='stylesheet'">
   <script>
     /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    !function (a) { "use strict"; var b = function (b, c, d) { function j(a) { if (e.body) return a(); setTimeout(function () { j(a) }) } function l() { f.addEventListener && f.removeEventListener("load", l), f.media = d || "all" } var g, e = a.document, f = e.createElement("link"); if (c) g = c; else { var h = (e.body || e.getElementsByTagName("head")[0]).childNodes; g = h[h.length - 1] } var i = e.styleSheets; f.rel = "stylesheet", f.href = b, f.media = "only x", j(function () { g.parentNode.insertBefore(f, c ? g : g.nextSibling) }); var k = function (a) { for (var b = f.href, c = i.length; c--;)if (i[c].href === b) return a(); setTimeout(function () { k(a) }) }; return f.addEventListener && f.addEventListener("load", l), f.onloadcssdefined = k, k(l), f }; "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b }("undefined" != typeof global ? global : this);
     /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+    !function (a) { if (a.loadCSS) { var b = loadCSS.relpreload = {}; if (b.support = function () { try { return a.document.createElement("link").relList.supports("preload") } catch (a) { return !1 } }, b.poly = function () { for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) { var d = b[c]; "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null) } }, !b.support()) { b.poly(); var c = a.setInterval(b.poly, 300); a.addEventListener && a.addEventListener("load", function () { b.poly(), a.clearInterval(c) }), a.attachEvent && a.attachEvent("onload", function () { a.clearInterval(c) }) } } }(this);
   </script>
   <!-- Apple Touch Icon (at least 200x200px) -->
   <link rel="apple-touch-icon" href="/custom-icon.png">
@@ -56,7 +57,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-112684174-1');
   </script>
@@ -65,76 +66,253 @@
   <![endif]-->
 </head>
 
-<body>
+<body class="home-selling">
   <!-- Header -->
   <header>
     <nav>
       <div class="left-navigation">
-        <div class="logo"><a href="/kendrick"><img src="images/kendrick-logo.png"></a></div>
+        <div class="logo">
+          <a href="/kendrick">
+            <img src="images/kendrick-logo.png">
+          </a>
+        </div>
         <ul>
-            <li class="drop-down">
-                Buy
-              <ul >
-                <li><a href="search.html">Search Homes</a></li>
-                <li><a href="homebuying.html">Homebuying Process</a></li>
-                <li><a href="mortgage.html">Mortgage and Payment Calculator</a></li>
-              </ul>
-            </li>
-            <li class="drop-down">
-              Sell
-              <ul >
-                <li><a href="valueestimate.html">Value Estimator</a></li>
-                <li><a href="sell.html">Selling Your Home</a></li>
-              </ul>
-            </li>
-            <li class="contact"><a href="team.html">Find an Agent</a></li>
-            <li class="drop-down">
-              Contact
-              <ul >
-                  <li><a href="contact.html"> Contact Us</a></li>
-                  <li><a href="contact-agent.html">Contact as an Agent</a></li>
-                </ul>
-            </li>
-          </ul>
+          <li class="drop-down">
+            Buy
+            <ul>
+              <li>
+                <a href="search.html">Search Homes</a>
+              </li>
+              <li>
+                <a href="homebuying.html">Homebuying Process</a>
+              </li>
+              <li>
+                <a href="mortgage.html">Mortgage and Payment Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="drop-down">
+            Sell
+            <ul>
+              <li>
+                <a href="valueestimate.html">Value Estimator</a>
+              </li>
+              <li>
+                <a href="sell.html">Selling Your Home</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contact">
+            <a href="team.html">Find an Agent</a>
+          </li>
+          <li class="drop-down">
+            Contact
+            <ul>
+              <li>
+                <a href="contact.html"> Contact Us</a>
+              </li>
+              <li>
+                <a href="contact-agent.html">Contact as an Agent</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <a id="nav-toggle" ><span></span></a>
+      <a id="nav-toggle">
+        <span></span>
+      </a>
       <div class="mobile-nav">
         <ul>
-          <li><a href="#">How it Works</a></li>
-          <li><a href="#">Careers</a></li>
-          <li class="contact"><a href="#">Contact</a></li>
-          <li class="about"><a href="team.html">Team</a></li>
-          <li><a href="#" class="btn btn-green btn-outline">Sign in </a></li>
+          <li>
+            <a href="#">How it Works</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li class="contact">
+            <a href="#">Contact</a>
+          </li>
+          <li class="about">
+            <a href="team.html">Team</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-green btn-outline">Sign in </a>
+          </li>
         </ul>
       </div>
       <div class="right-navigation">
-      <div class="saved-searches">
+        <div class="saved-searches">
           <ul>
-            <li class="saved-homes"><a href="savedhomes.html"> My Saved Homes </a></li>
+            <li class="saved-homes">
+              <a href="savedhomes.html"> My Saved Homes </a>
+            </li>
           </ul>
-      </div>
-      <div class="signin">
+        </div>
+        <div class="signin">
           <a href="#" class="btn btn-green btn-outline">Sign in </a>
-      </div>
+        </div>
     </nav>
   </header>
   <!-- end of header -->
   <!-- main -->
   <main>
-    <!-- company description -->
-    <img src="images/sell.jpg"
+    <section class="banner-teaser homeselling blue-text text-right">
+      <h1>Selling your Home with <span>Kendrick</span></h1>
+      <img src="images/house.svg">
+    </section>
+    <section class="process p-0" id="journey">
+      <div class="grey-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/agent.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 1
+            </p>
+            <h2>Select an agent and value your home</h2>
+            <p class="text-justify">Start on the right path by finding a competent and experienced agent with local expertise to help you sell your home. This
+            agent’s job is to get you the best price for your home, while keeping the process as stress-free as possible, so be sure
+            you feel comfortable with them. Your agent will then help set a price for your home, and make sure that price matches your
+            personal financial goals. Beware of an agent who tells you what you want to hear. Setting too high a price can add weeks
+            or months to the sale, and even result in a much lower sale price</p>
+            <button class="btn btn-green m-t-s">Talk with us</button>
+          </div>
+        </div>
+      </div>
+      <div class="white-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/house-hunting.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 2
+            </p>
+            <h2>Prepare your Home for Sale</h2>
+            <p class="text">Based on your goals and strategy there may be a little or a lot of prep to do to get you ready to sell your home. Your agent
+            will recommend steps to take, and professionals to use to get you the best value for your home [link to blog post]. This
+            could mean a bit of decluttering and minor maintenance, to freshening up paint and completing repairs. You may also want
+            to take more technical steps such as pre-opening escrow, performing property inspections, and preparing necessary disclosures.</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="grey-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/house-hunting.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 3
+            </p>
+            <h2>Create a plan for marketing your home</h2>
+            <p class="text-justify">Now it’s time to create a plan of action to get your home in front of the most qualified buyers possible. Properly marketing
+            a home can mean a quicker sale, with more money to you. This should include professional photography, and even a virtual
+            tour. Identify hot selling points that will draw buyers in, and write a compelling property description. You will also decide
+            on logistics for getting buyers inside the house, including open houses and private tours led by a buyer’s agent. Your Realtor
+            will give recommendations and help to coordinate all these steps.</p>
+          </div>
+        </div>
+      </div>
+      <!-- insert search here -->
+      <div class="call-to-action blue-bg">
+        <div class="container p-m">
+          <h1>Estimate the Value of your home</h1>
+          <div class="input-icon">
+            <input class="search" type="text" placeholder="Search by address, county, zip">
+            <img src="images/search-2.svg">
+          </div>
+        </div>
+      </div>
+      <div class="grey-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/offers.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 4
+            </p>
+            <h2>Listing your home for sale and showing prospective buyers</h2>
+            <p class="text-justify">Now it’s time for action. Just before the home is for sale, install a yard sign, to draw traffic, and a lockbox to allow
+            for private tours, if desired. On listing day, your agent will press the “publish” button and your home will go live on the
+            Multiple Listing Service (MLS), and all popular homes search sites. Open houses, properly advertised, are a great way to
+            get exposure for your home, as are allowing for private tours. Your realtor will plan, coordinate, and oversee all these
+            activities as well.</p>
+          </div>
+        </div>
+      </div>
+      <div class="white-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/inspection.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 5
+            </p>
+            <h2>Reviewing and Accepting offers</h2>
+            <p class="text-justify">With the right marketing strategy, it is a matter of time before the offers start coming in. So how to evaluate an offer?
+            Purchase price is important, but as are other parts of the offer. Your agent can help you evaluate these parts, including
+            the commitment and stability of the buyers, the strength of the financing, concessions or conditions requested of you, and
+            the amount of time it will take to close out the transaction. Your agent will also negotiate with the buyer to get you the
+            best possible deal. In the end, it may even be the strongest offer isn’t the one with the highest price!</p>
+          </div>
+        </div>
+      </div>
+      <div class="grey-bg">
+        <div class="container grid grid-2 gutter-20 p-m">
+          <div class="process-image">
+            <img src="images/approvals.svg" />
+          </div>
+          <div class="step-text">
+            <p class="step">
+              Step 6
+            </p>
+            <h2>The Escrow Process</h2>
+            <p class="text-justify">When you sign and accept the perfect offer, you are officially “in Escrow”! Having a skilled agent at your side makes your
+            life a lot easier here. Escrow takes anywhere from 10-45+ days to complete. There are many groups that get involved including
+            the buyer and her agent, inspectors, title and escrow officers, lenders, and transaction coordinators. Additionally, there
+            is paperwork to keep you and your assets safe and in legal compliance. Your agent’s job here is to manage and coordinate
+            this whole process so you are continually in the know, and your sale runs flawlessly</p>
+          </div>
+        </div>
+      </div>
+      <div class="white-bg">
+        <div class="container p-m">
+          <div class="process-image">
+            <img src="images/closing.svg" />
+          </div>
+          <div class="step-text text-center">
+            <p class="step">
+              Final Step
+            </p>
+            <h2>Closing on your home</h2>
+            <p class="text-center">Now it’s time to close out the sale. This means signing over the title to the home and transferring ownership, and getting
+            paid for your home! These last steps in the process may be small, but they are momentous. Your agent will be there to coordinate
+            these final steps and celebrate your successful sale.</p>
+          </div>
+        </div>
+      </div>
+      <div class="call-to-action blue-bg">
+        <div class="container p-m">
+          <h1>Need Help?</h1>
+          <p>Request a no-obligation consultation from a Local Real Estate Expert</p>
+          <button class="btn btn-green">Talk with an Expert</button>
 
-    <!-- end of featured -->
-
+        </div>
+      </div>
+    </section>
+  </main>
   <footer>
     <div class="container grid footer-5 gutter-5 full-height p-m">
       <div class="company-info">
         <img src="images/2nd.jpg">
         <p> Kendrick Realty</p>
         <p class="address">
-            91 Gregory Lane #12
-            Pleasant Hill, CA 94523
-            925-226-8218
+          91 Gregory Lane #12 Pleasant Hill, CA 94523 925-226-8218
         </p>
       </div>
       <div class="sub-menu">
@@ -143,11 +321,21 @@
         </p>
         <nav>
           <ul>
-            <li><a>About</a></li>
-            <li><a>Team</a></li>
-            <li><a>Careers</a></li>
-            <li><a>Contact us</a></li>
-            <li><a>How it works</a></li>
+            <li>
+              <a>About</a>
+            </li>
+            <li>
+              <a>Team</a>
+            </li>
+            <li>
+              <a>Careers</a>
+            </li>
+            <li>
+              <a>Contact us</a>
+            </li>
+            <li>
+              <a>How it works</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -157,20 +345,25 @@
         </p>
         <nav>
           <ul>
-            <li><a>New Properties</a></li>
-            <li><a>Featured Listings</a></li>
-            <li><a>Neighborhoods</a></li>
+            <li>
+              <a>New Properties</a>
+            </li>
+            <li>
+              <a>Featured Listings</a>
+            </li>
+            <li>
+              <a>Neighborhoods</a>
+            </li>
           </ul>
         </nav>
       </div>
     </div>
   </footer>
 
-    <!-- End Footer -->
-    <!-- End Footer -->
-
-  </main>
+  <!-- End Footer -->
+  <!-- End Footer -->
   <!-- end of main -->
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
