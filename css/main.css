@@ -997,10 +997,11 @@ input:focus{
   position: relative;
 }
 .homeselling h1{
+  font-size: 44px;
   margin-right: 10%;
   font-weight: 400;
   color: var(--main-color);
-  max-width: 500px;
+  max-width: 600px;
   line-height: 1.6em;
 }
 .homeselling h1 span{
@@ -1016,6 +1017,7 @@ input:focus{
   animation-duration: 2s;
 }
 .homeselling{
+  min-height: 80vh;
     align-items: flex-end;
   background: url('../images/sell-bg.svg');
   background-repeat: no-repeat;
