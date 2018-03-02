@@ -1196,6 +1196,10 @@ img{
 .grey-bg{
   background: #F7F7F7;
 }
+.blue-bg{
+  background: var(--dark-blue);
+  color: white;
+}
 .big-heading{
   font-size: 350%;
   font-weight: 800;
@@ -1208,6 +1212,32 @@ img{
 }
 .call-to-action{
   text-align:center;
+}
+.call-to-action h1{
+  font-weight: 400;
+  letter-spacing: .08em;
+  margin: 0 0 15px 0;
+}
+.call-to-action .input-icon{
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.call-to-action.blue-bg p{
+  color: white;
+  margin-bottom: 25px;
+}
+.call-to-action .input-icon input{
+ margin: 0;
+ border: 0;
+}
+.call-to-action .input-icon img{
+  background: var(--main-color);
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38px;
 }
 /* BUTTON STYLES */
 .btn{
