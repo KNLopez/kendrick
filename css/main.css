@@ -1064,6 +1064,9 @@ letter-spacing: 0;
 }
 .value-estimate{
   background: url('../images/homebuying-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .value-estimate h1{
   margin: 0;
