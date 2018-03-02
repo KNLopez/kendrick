@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5{
 html,body{
   min-height: 100vh;
   background: #fff;
+  overflow-x:hidden;
 }
 
 /* MENU */
@@ -1301,6 +1302,9 @@ img{
   .value-estimate-text .contact-form{
     width: 100%;
     max-width: 100%;
+  }
+  .p-m{
+    padding: 50px 20px;
   }
   
 }
