@@ -51,9 +51,12 @@
       top: element.offsetTop
     });
   }
-
-  document.getElementById("view").addEventListener('click', () => {
-    scrollTo(document.getElementById("journey"));
-  });
+  var view = document.getElementById("view");
+  if(view){
+    view.addEventListener('click', () => {
+      scrollTo(document.getElementById("journey"));
+    });
+  }
+  
 
 })();

@@ -463,6 +463,9 @@ footer nav ul li a:hover{
 .space-between{
   justify-content: space-between;
 }
+.grid-2-3{
+  grid-template-columns: 2fr 3fr;
+}
 .grid-1-3{
   grid-template-columns: 1fr 3fr;
 }
@@ -562,6 +565,18 @@ section{
   bottom: -10px;
   background: var(--main-color);
   left: 35%;
+}
+h2.title{
+  position: relative;
+}
+h2.title:after{
+  content: ' ';
+  position: absolute;
+  height: 2px;
+  width: 30%;
+  bottom: -10px;
+  background: var(--main-color);
+  left: 0;
 }
 .team-members address a{
   line-height: 1.6em;
@@ -934,6 +949,10 @@ select{
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.11);
   margin-top: -100px;
 }
+.contact-form.agent{
+  margin-top: 0;
+  box-shadow: none;
+}
 .contact-form .gutter-5{
   grid-row-gap: 0;
 }
@@ -1102,6 +1121,24 @@ letter-spacing: 0;
   justify-content: center;
   align-items: center;
 }
+.flex-container.flex-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-1-3 .card{
+  margin: 1.66%;
+  width: 30%;
+}
+.careers .card{
+  padding: 3em 2em;
+  justify-content: center;
+  align-items: flex-start;
+}
+.careers .card img{
+  max-width: 10em;
+  max-height: 10em;
+}
 .items .card img{
   max-width: 70px;
   max-height: 45px;
@@ -1129,7 +1166,64 @@ letter-spacing: 0;
 }
 .white-text{color:white;}
 .white-text p{color:white;}
-
+.career-banner{
+  background: url('../images/careers-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  overflow: hidden;
+  min-height: 40vh;
+}
+.big-card{
+  transform: scale(1.2);
+  border: 1px solid var(--main-color);
+}
+.salary-container .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  text-align: center;
+}
+.salary-container .card h4{
+  margin: 0;
+}
+.salary-container .card h3{
+  font-size: 1.8em
+}
+.salary-container .card h3,.salary-container .card p{
+  margin: 0;
+}
+.short-text .salary-container p {
+  color: #9B9DA0;
+  line-height: 1em;
+}
+.inline-block{
+  display: inline-block;
+  padding: 1.5em 2em;
+  margin-bottom: 20px;
+}
+.short-text .salary-container .subtitle{
+  margin-bottom: 1em;
+}
+.salary-container .card.big-card h3{
+  color: var(--main-color);
+  font-size: 2em;
+  margin: 0em;
+}
+.h2-blue{
+  color: var(--main-color);
+  font-size: 30px;
+  display: inline;
+  font-weight: 800;
+}
+.working-with{
+  background: #f7f7f7 url('../images/working-with-bg.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 @media screen and (min-width: 720px){
   .mobile-nav{
     display: none;
@@ -1236,6 +1330,9 @@ img{
 .blue-bg{
   background: var(--dark-blue);
   color: white;
+}
+.blue-text{
+  color: var(--main-color);
 }
 .big-heading{
   font-size: 350%;
