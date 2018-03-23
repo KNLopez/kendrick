@@ -1495,7 +1495,57 @@ img{
 .from-bottom{
   top: 0 !important;
 }
+.from-bottom-agent{
+  top: 30% !important;
+}
+.grid-1-3-sm{
+  grid-template-columns: 1fr 3fr;
+}
+  .contact-agent{
+    display: none;
+  }
+  .grid-2-property{
+    grid-template-columns:  1fr 1fr;
+  }
 @media screen and (max-width: 720px){
+  .listing-details__description h2{
+    margin: 2em 0;
+  }
+  .p-t{
+    padding: 1em 0;
+  }
+  .listing-details{
+    padding: 1em 1em;
+  }
+  .contact-agent{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align:center;
+    padding: 1em 0;
+    background: var(--main-color);
+    color: #fff;
+    
+  }
+  .agent-card{
+    height: auto;
+    width: 100%;
+    padding: 20px 20px;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    transition: .3s ease-in-out top;
+  }
+ 
+  .price h2, .price p{
+    text-align: left;
+  }
+  
+  #map{
+    display: none;
+  }
   .property-results{
     padding-top: 10px;
   }
@@ -1537,6 +1587,7 @@ img{
   .footer-5, .grid-2,.grid-1-3,.grid-3,.grid-4,.grid-5,.grid-6{
     grid-template-columns: 1fr;
   }
+  
   .left-navigation ul, .right-navigation, .saved-searches, .signin{
     display: none !important;
   }

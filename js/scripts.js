@@ -48,6 +48,16 @@ function loadMain(modal){
       
       document.querySelector('.filters').classList.toggle("from-bottom");
     }
+    if (e.target.classList.contains('contact-agent')) {
+      var view_filter = e.target
+      if (view_filter.textContent.includes("Contact")) {
+        view_filter.innerHTML = "Hide Form"
+      } else {
+        view_filter.innerHTML = "Contact Agent"
+      }
+
+      document.querySelector('.agent-card').classList.toggle("from-bottom-agent");
+    }
   })
 
   //search
