@@ -33,7 +33,10 @@ function loadMain(modal){
     if (e.target.classList.contains('mobile-dropdown')){
       console.log("dropdown");
       e.target.nextElementSibling.classList.toggle("visible");
-
+    }
+    if (e.target.classList.contains('read-more')){
+      e.preventDefault();
+      e.target.nextElementSibling.classList.toggle("max-height");
     }
   })
 

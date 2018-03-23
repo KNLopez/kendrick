@@ -379,7 +379,7 @@ section.neighborhoods{
   left:0;
   top: -150px;
 }
-.neighborhoods .card{
+.team-members .card,.neighborhoods .card{
   padding: 0;
 }
 .neighboorhood-card__image{
@@ -914,8 +914,12 @@ select{
 #map{
   min-height: 400px;
 }
+.max-height{
+  max-height: 1000px !important;
+}
 .visible{
   display: block !important;
+  
 }
 .icon{max-width:32px;}
 
@@ -1437,6 +1441,32 @@ img{
   text-decoration: underline;
   color: #4A4A4A;
 }
+
+.closing ul{
+  text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+    padding: 0;
+}
+.step-text ul li{
+  margin: 1em 0;
+}
+.read-more{
+  color: var(--main-color);
+  display: block;
+  margin: 1em 0;
+}
+.read-more-text{
+  max-height: 0;
+  transition: .5s ease-out;
+  animation-name: grow;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-duration: .4s;
+  overflow: hidden;
+}
 @media screen and (max-width: 720px){
   .desktop-image{
     display: none;
@@ -1489,6 +1519,6 @@ img{
 }
 
 @keyframes grow {
-    0%   {height: 0;}
-    100% {height: auto;}
+    0%   {max-height: 0;}
+    100% {max-height: 1000px;}
 }
