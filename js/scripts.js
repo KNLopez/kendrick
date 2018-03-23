@@ -42,6 +42,24 @@ function loadMain(modal){
 
   })
 
+
+  //slides
+  var slideIndex = 0;
+  showSlides();
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("testimonial");
+    if (slides) {
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "flex";
+      setTimeout(showSlides, 3000)
+    } else {
+    }
+  }
 }
 
 //modal code
@@ -57,7 +75,10 @@ var modal = (function(){
 })();
 
 //scroll
-var scrollElement = (function(){})();
+var scrollElement = (function(){
+
+
+})();
 function scrollTo(element) {
   window.scroll({
     behavior: 'smooth',

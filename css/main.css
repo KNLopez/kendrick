@@ -1426,6 +1426,17 @@ img{
   border: 2px solid var(--main-color);
   background: transparent;
 }
+
+.quick-searches a{
+  text-decoration: none;
+  color: #4A4A4A;
+  margin: 20px 0;
+  display: block;
+}
+.quick-searches a:hover{
+  text-decoration: underline;
+  color: #4A4A4A;
+}
 @media screen and (max-width: 720px){
   .desktop-image{
     display: none;
@@ -1460,6 +1471,7 @@ img{
     margin-top: 5.5em;
   }
   .text-module.kendiff{
+    padding: 2em 1em;
   }
   .value-estimate-text .contact-form{
     width: 100%;
