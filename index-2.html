@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -17,9 +18,9 @@
   <link rel="preload" href="css/slider.css" as="style" onload="this.rel='stylesheet'">
   <script>
     /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    !function (a) { "use strict"; var b = function (b, c, d) { function j(a) { if (e.body) return a(); setTimeout(function () { j(a) }) } function l() { f.addEventListener && f.removeEventListener("load", l), f.media = d || "all" } var g, e = a.document, f = e.createElement("link"); if (c) g = c; else { var h = (e.body || e.getElementsByTagName("head")[0]).childNodes; g = h[h.length - 1] } var i = e.styleSheets; f.rel = "stylesheet", f.href = b, f.media = "only x", j(function () { g.parentNode.insertBefore(f, c ? g : g.nextSibling) }); var k = function (a) { for (var b = f.href, c = i.length; c--;)if (i[c].href === b) return a(); setTimeout(function () { k(a) }) }; return f.addEventListener && f.addEventListener("load", l), f.onloadcssdefined = k, k(l), f }; "undefined" != typeof exports ? exports.loadCSS = b : a.loadCSS = b }("undefined" != typeof global ? global : this);
     /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+    !function (a) { if (a.loadCSS) { var b = loadCSS.relpreload = {}; if (b.support = function () { try { return a.document.createElement("link").relList.supports("preload") } catch (a) { return !1 } }, b.poly = function () { for (var b = a.document.getElementsByTagName("link"), c = 0; c < b.length; c++) { var d = b[c]; "preload" === d.rel && "style" === d.getAttribute("as") && (a.loadCSS(d.href, d, d.getAttribute("media")), d.rel = null) } }, !b.support()) { b.poly(); var c = a.setInterval(b.poly, 300); a.addEventListener && a.addEventListener("load", function () { b.poly(), a.clearInterval(c) }), a.attachEvent && a.attachEvent("onload", function () { a.clearInterval(c) }) } } }(this);
   </script>
   <!-- Apple Touch Icon (at least 200x200px) -->
   <link rel="apple-touch-icon" href="/custom-icon.png">
@@ -56,7 +57,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112684174-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-112684174-1');
   </script>
@@ -79,9 +80,15 @@
         <div class="search-banner__type-selector">
           <nav class="selector">
             <ul>
-              <li><a href="#" class="active">Buy</a></li>
-              <li><a href="#">Sell</a></li>
-              <li><a href="#">Home Value</a></li>
+              <li>
+                <a href="#" class="active">Buy</a>
+              </li>
+              <li>
+                <a href="#">Sell</a>
+              </li>
+              <li>
+                <a href="#">Home Value</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -108,63 +115,70 @@
       <div class="container">
         <div class="grid grid-2">
           <div class="kendiff-image">
-              <img class="desktop-image" src="images/key.jpg">
-              <div class="fixed-text">Experts</div>
+            <img src="images/key.jpg">
+            <div class="fixed-text">Experts</div>
           </div>
           <div class="text-module kendiff">
-            <h1 class="big-heading">The <br>Kendrick <br>Difference</h1>
-            <p>What sets Kendrick Realty, Inc. apart from other real estate firms is our dedication to communication between us and our clients at all times. We support both our Realtors and our Clients in every step forward and we set up a business environment for them in the process conducive for transaction to both parties. </p>
+            <h1 class="big-heading">The
+              <br>Kendrick
+              <br>Difference</h1>
+            <p>What sets Kendrick Realty, Inc. apart from other real estate firms is our dedication to communication between
+              us and our clients at all times. We support both our Realtors and our Clients in every step forward and we
+              set up a business environment for them in the process conducive for transaction to both parties. </p>
             <a class="btn btn-green">About</a>
           </div>
           <div class="mobile-kendiff-image">
-            <img class="mobile-experts-image" src="images/3rd.jpg"/>
+            <img class="mobile-kendiff-image" src="images/key.jpg" />
+            <img class="mobile-experts-image" src="images/3rd.jpg" />
           </div>
           <div class="text-module experts">
             <h1>Partner with experts</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur
+              sollicitudin egestas neque sit amet facilisis. Ut posuere odio eget tortor suscipit viverra. </p>
             <a class="btn btn-green">Find a Partner Agent</a>
           </div>
           <div class="experts">
-            <img class="desktop-image" src="images/3rd.jpg" />
+            <img src="images/3rd.jpg" />
           </div>
         </div>
       </div>
     </section>
     <section class="testimonials grey-bg m-t-m">
-        <div class="container">
-          <h1>What People Say About Kendrick</h1>
-          <div class="testinmonials__slider">
-            <div class="testimonial fade">
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
-              <div class="profile">
-                  <img src="images/man.png">
-                  <p class="name">Ronald Reyes</p>
-              </div>
+      <div class="container">
+        <h1>What People Say About Kendrick</h1>
+        <div class="testinmonials__slider">
+          <div class="testimonial fade">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor.</p>
+            <div class="profile">
+              <img src="images/man.png">
+              <p class="name">Ronald Reyes</p>
             </div>
-            <div class="testimonial fade">
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.</p>
-                <div class="profile">
-                    <img src="images/man.png">
-                    <p class="name">Ronald Reyes</p>
-                </div>
-              </div>
-              <div class="testimonial fade">
-                  <p class="description">Another Testimonial</p>
-                  <div class="profile">
-                      <img src="images/man.png">
-                      <p class="name">Ronald Reyes</p>
-                  </div>
-                </div>
+          </div>
+          <div class="testimonial fade">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor.</p>
+            <div class="profile">
+              <img src="images/man.png">
+              <p class="name">Ronald Reyes</p>
+            </div>
+          </div>
+          <div class="testimonial fade">
+            <p class="description">Another Testimonial</p>
+            <div class="profile">
+              <img src="images/man.png">
+              <p class="name">Ronald Reyes</p>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- end of company description -->
     <section class="call-to-action ">
       <div class="container">
         <div class="updates">
-            <h1>Get the latest updates for new listings</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis.</p>
-            <button class="btn btn-black Subs">Subscribe</button>
+          <h1>Get the latest updates for new listings</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur
+            sollicitudin egestas neque sit amet facilisis.</p>
+          <button class="btn btn-black Subs">Subscribe</button>
         </div>
       </div>
     </section>
@@ -173,13 +187,14 @@
       <div class="container">
         <div class="text-module white-bg">
           <h1>Featured Properties</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur sollicitudin egestas neque sit amet facilisis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur
+            sollicitudin egestas neque sit amet facilisis.</p>
         </div>
         <!-- Property cards -->
-        <div  class="m-t-m grid grid-3 gutter-5">
+        <div class="m-t-m grid grid-3 gutter-5">
           <div class="property-card">
             <div class="property-card__image">
-             <img src="images/couch.jpg" alt=""/>
+              <img src="images/couch.jpg" alt="" />
             </div>
             <div class="property-card__text">
               <h3>515 Stonewood Dr</h3>
@@ -187,16 +202,19 @@
               <div class="property-card__text__details">
                 <p class="price">$100,0000</p>
                 <div class="property_details flex">
-                  <span class="icon-text"><img src="images/bed.svg"> 3bd</span>
-                  <span class="icon-text"><img src="images/bathtub.svg"> 3bath</span>
-                  <span class="icon-text"><img src="images/area.svg"> 1,245sqft</span>
+                  <span class="icon-text">
+                    <img src="images/bed.svg"> 3bd</span>
+                  <span class="icon-text">
+                    <img src="images/bathtub.svg"> 3bath</span>
+                  <span class="icon-text">
+                    <img src="images/area.svg"> 1,245sqft</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="property-card">
             <div class="property-card__image">
-             <img src="images/couch.jpg" alt=""/>
+              <img src="images/couch.jpg" alt="" />
             </div>
             <div class="property-card__text">
               <h3>515 Stonewood Dr</h3>
@@ -204,16 +222,19 @@
               <div class="property-card__text__details">
                 <p class="price">$100,0000</p>
                 <div class="property_details flex">
-                  <span class="icon-text"><img src="images/bed.svg"> 3bd</span>
-                  <span class="icon-text"><img src="images/bathtub.svg"> 3bath</span>
-                  <span class="icon-text"><img src="images/area.svg"> 1,245sqft</span>
+                  <span class="icon-text">
+                    <img src="images/bed.svg"> 3bd</span>
+                  <span class="icon-text">
+                    <img src="images/bathtub.svg"> 3bath</span>
+                  <span class="icon-text">
+                    <img src="images/area.svg"> 1,245sqft</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="property-card">
             <div class="property-card__image">
-             <img src="images/couch.jpg" alt=""/>
+              <img src="images/couch.jpg" alt="" />
             </div>
             <div class="property-card__text">
               <h3>515 Stonewood Dr</h3>
@@ -221,9 +242,12 @@
               <div class="property-card__text__details">
                 <p class="price">$100,0000</p>
                 <div class="property_details flex">
-                  <span class="icon-text"><img src="images/bed.svg"> 3bd</span>
-                  <span class="icon-text"><img src="images/bathtub.svg"> 3bath</span>
-                  <span class="icon-text"><img src="images/area.svg"> 1,245sqft</span>
+                  <span class="icon-text">
+                    <img src="images/bed.svg"> 3bd</span>
+                  <span class="icon-text">
+                    <img src="images/bathtub.svg"> 3bath</span>
+                  <span class="icon-text">
+                    <img src="images/area.svg"> 1,245sqft</span>
                 </div>
               </div>
             </div>
@@ -236,48 +260,49 @@
         </div>
       </div>
     </section>
-    
+
     <!-- end of featured -->
     <section class="neighborhoods">
       <div class="container">
         <div class="neighborhood-heading">
-            <h2>Neighborhoods</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla scelerisque nunc sed luctus porttitor.  Curabitur sollicitudin egestas neque sit amet facilisis.</p>
+          <h2>Neighborhoods</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nunc sed luctus porttitor. Curabitur
+            sollicitudin egestas neque sit amet facilisis.</p>
         </div>
-        
+
         <div class="m-t-s grid grid-3 gutter-5">
           <div class="card">
             <div class="neighboorhood-card__image">
-                <img src="images/overview.jpg"/>
+              <img src="images/overview.jpg" />
             </div>
             <div class="neighborhood-card__text">
-                <h3>Neighborhood 1</h3>
-                <p>Vacaville</p>
+              <h3>Neighborhood 1</h3>
+              <p>Vacaville</p>
             </div>
           </div>
           <div class="card">
             <div class="neighboorhood-card__image">
-                <img src="images/overview.jpg"/>
+              <img src="images/overview.jpg" />
             </div>
             <div class="neighborhood-card__text">
-                <h3>Neighborhood 1</h3>
-                <p>Vacaville</p>
+              <h3>Neighborhood 1</h3>
+              <p>Vacaville</p>
             </div>
           </div>
           <div class="card">
             <div class="neighboorhood-card__image">
-                <img src="images/overview.jpg"/>
+              <img src="images/overview.jpg" />
             </div>
             <div class="neighborhood-card__text">
-                <h3>Neighborhood 1</h3>
-                <p>Vacaville</p>
+              <h3>Neighborhood 1</h3>
+              <p>Vacaville</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Start Footer -->
-  <!-- <footer>
+    <!-- <footer>
     <div class="container grid footer-5 gutter-5 full-height p-m">
       <div class="company-info">
         <img src="images/2nd.jpg">
@@ -334,9 +359,10 @@
     <!-- End Footer -->
     <!-- End Footer -->
 
-<footer data-template="footer"></footer>
+    <footer data-template="footer"></footer>
   </main>
   <!-- end of main -->
   <script src="js/scripts.js"></script>
 </body>
+
 </html>

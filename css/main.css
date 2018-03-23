@@ -320,7 +320,7 @@ input.search-bar{
 }
 .featured .text-module{
   max-width: 60%;
-  min-width: 480px;
+  min-width: 360px;
   margin: 0 auto;
   text-align: center;
   padding: 2% 4%;
@@ -378,6 +378,9 @@ section.neighborhoods{
   position: absolute;
   left:0;
   top: -150px;
+}
+.neighborhoods .card{
+  padding: 0;
 }
 .neighboorhood-card__image{
   width: 100%;
@@ -1424,6 +1427,9 @@ img{
   background: transparent;
 }
 @media screen and (max-width: 720px){
+  .desktop-image{
+    display: none;
+  }
   footer{
     height: auto;
     padding-bottom: 50px;
