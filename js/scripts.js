@@ -38,6 +38,16 @@ function loadMain(modal){
       e.preventDefault();
       e.target.nextElementSibling.classList.toggle("max-height");
     }
+    if (e.target.classList.contains('mfilter-toggle')){
+      var view_filter = e.target
+      if (view_filter.textContent.includes("View")){
+        view_filter.innerHTML = "Hide Filters"
+      }else{
+        view_filter.innerHTML = "View Filters"
+      }
+      
+      document.querySelector('.filters').classList.toggle("from-bottom");
+    }
   })
 
   //search
