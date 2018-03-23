@@ -38,6 +38,7 @@ input[type="text"],input[type="number"],input[type="email"],textarea{
 }
 h1,h2,h3,h4,h5{
   font-family: 'Merriweather', serif;
+  line-height: 135%;
 }
 html,body{
   min-height: 100vh;
@@ -1504,6 +1505,15 @@ img{
     grid-template-columns:  1fr 1fr;
   }
 @media screen and (max-width: 720px){
+  .working-with{
+    background-size: contain;
+  }
+  .flex-1-3 .card{
+    width: 100%;
+  }
+  h3.short-text{
+    line-height: 140%;
+  }
   .mfilter-toggle{
     display: block;
     position: fixed;
@@ -1592,7 +1602,7 @@ img{
   section.search-banner{
     height: calc(70vh - 70px);
   }
-  .footer-5, .grid-2,.grid-1-3,.grid-3,.grid-4,.grid-5,.grid-6{
+  .grid-2-3, .footer-5, .grid-2,.grid-1-3,.grid-3,.grid-4,.grid-5,.grid-6{
     grid-template-columns: 1fr;
   }
   
